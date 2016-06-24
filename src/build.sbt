@@ -10,6 +10,9 @@ libraryDependencies ++= Seq(
   "edu.stanford.nlp" % "stanford-corenlp" % "3.6.0",
   "edu.stanford.nlp" % "stanford-corenlp" % "3.6.0" classifier "models",
   "edu.stanford.nlp" % "stanford-parser" % "3.6.0",
+  "org.apache.spark" % "spark-core_2.11" % "2.0.0-preview",
+  "org.apache.spark" % "spark-mllib_2.11" % "2.0.0-preview",
+  "org.apache.spark" % "spark-sql_2.11" % "2.0.0-preview",
   "com.google.protobuf" % "protobuf-java" % "2.6.1"
 )
 libraryDependencies += "org.json" % "json" % "20131018"

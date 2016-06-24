@@ -10,7 +10,8 @@ import org.json.JSONObject;
  * Created by chanti on 24-Jun-16.
  */
 public class DataCollection {
-    public static void main(String[] args) throws IOException {
+    public static String main() throws IOException {
+        String fileName = "gTrends.txt";
         String url2 = "https://www.google.com/trends/api/stories/latest?cat=m&fi=15&fs=15&geo=US&ri=300&rs=15&tz=300";
         URL url = new URL(url2);
         HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
@@ -33,7 +34,7 @@ public class DataCollection {
         JSONArray jArray = obj.getJSONObject("storySummaries").getJSONArray("trendingStories").getJSONObject(1).getJSONArray("articles");
         System.out.println(jArray);
 
-        FileWriter fileWriter = new FileWriter("gTrends");
+        FileWriter fileWriter = new FileWriter(fileName);
 
         // Always wrap FileWriter in BufferedWriter.
         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
@@ -43,6 +44,7 @@ public class DataCollection {
            bufferedWriter.write(j.toString());
         }
         bufferedWriter.close();
-    }
 
+        return fileName;
+    }
 }

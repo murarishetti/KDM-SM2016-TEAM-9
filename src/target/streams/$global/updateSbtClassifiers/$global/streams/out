@@ -703,9 +703,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 3606ms :: artifacts dl 205ms
+[debug] :: resolution report :: resolve 3775ms :: artifacts dl 160ms
 [debug] 	report for default#kdm$sbt_2.11;1.0 default produced in C:\Users\chanti\Documents\kdm\target\resolution-cache\reports\default-kdm$sbt_2.11-default.xml
-[debug] 	resolve done (3606ms resolve - 205ms download)
+[debug] 	resolve done (3775ms resolve - 160ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#kdm$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1069,6 +1069,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 827ms :: artifacts dl 254ms
+[debug] :: resolution report :: resolve 571ms :: artifacts dl 173ms
 [debug] 	report for default#kdm$sources_2.11;1.0 default produced in C:\Users\chanti\Documents\kdm\target\resolution-cache\reports\default-kdm$sources_2.11-default.xml
-[debug] 	resolve done (827ms resolve - 254ms download)
+[debug] 	resolve done (571ms resolve - 173ms download)
