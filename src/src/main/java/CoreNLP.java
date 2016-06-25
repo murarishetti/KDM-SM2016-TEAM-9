@@ -34,7 +34,7 @@ public class CoreNLP {
         String text = null;
         while((line = bufferedReader.readLine()) != null) {
             text = text + line;
-            System.out.println(line);
+            //System.out.println(line);
         }
         // Always close files.
         bufferedReader.close();
@@ -42,7 +42,7 @@ public class CoreNLP {
        // Add your text here!
 
 // create an empty Annotation just with the given text
-        Annotation document = new Annotation(text);
+        Annotation document = new Annotation("New Haven warns of tainted; drugs amid overdose spike. Gov. Malloy Warns Of Very Dangerous Situation In New Haven Amid Heroin hours ago");
 
 // run all Annotators on this text
         pipeline.annotate(document);
