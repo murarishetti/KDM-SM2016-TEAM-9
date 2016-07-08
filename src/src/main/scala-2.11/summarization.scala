@@ -12,6 +12,6 @@ object summarization {
     val sparkConf = new SparkConf().setAppName("SparkWordCount").setMaster("local[*]")
     val sc = new SparkContext(sparkConf)
 
-    CoreNLP.main(fileName);
+    //CoreNLP.main(fileName);
   }
 }

@@ -5,6 +5,7 @@ import java.net.URLConnection;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.json.simple.*;
 
 /**
  * Created by chanti on 24-Jun-16.
@@ -12,7 +13,8 @@ import org.json.JSONObject;
 public class DataCollection {
     public static String main() throws IOException {
         String fileName = "gTrends.txt";
-        String url2 = "https://www.google.com/trends/api/stories/latest?cat=m&fi=15&fs=15&geo=US&ri=300&rs=15&tz=300";
+
+        String url2 = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=1069bc25bff24ebf8cf3dbae1133e000&q=kansascity&sort=newest&fl=lead_paragraph&page=0";
         URL url = new URL(url2);
         HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
         urlConnection.setRequestMethod("GET");
@@ -26,23 +28,29 @@ public class DataCollection {
         while ((line = br.readLine()) != null) {
             stringBuilder.append(line);
         }
-        String response = stringBuilder.toString().substring(4);
+        String response = stringBuilder.toString();
+        System.out.println(response);
         is.close();
         urlConnection.disconnect();
 
         JSONObject obj = new JSONObject(response);
-        JSONArray jArray = obj.getJSONObject("storySummaries").getJSONArray("trendingStories").getJSONObject(1).getJSONArray("articles");
-        System.out.println(jArray);
-
+        JSONArray jArray = obj.getJSONObject("response").getJSONArray("docs");
         FileWriter fileWriter = new FileWriter(fileName);
 
         // Always wrap FileWriter in BufferedWriter.
         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+        System.out.print(jArray.length());
+        for (int i = 0;i < jArray.length();i++) {
+            JSONObject result = jArray.getJSONObject(i);
+            String output = result.toString().substring(19);
+            output = output.substring(0, output.length()-2);
+            System.out.println(i);
+            System.out.print(output);
 
-        for(int i = 0;i < jArray.length();i++) {
-            JSONObject j = jArray.getJSONObject(i);
-           bufferedWriter.write(j.toString());
+            bufferedWriter.write(output);
+            bufferedWriter.write("\n");
         }
+
         bufferedWriter.close();
 
         return fileName;
