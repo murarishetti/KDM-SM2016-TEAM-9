@@ -192,6 +192,12 @@
         </SOURCES>
       </library>
     </orderEntry>
+<<<<<<< HEAD:src/.idea/modules/kdm.iml
+    <orderEntry type="library" name="SBT: com.googlecode.json-simple:json-simple:1.1.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: junit:junit:4.10:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.hamcrest:hamcrest-core:1.1:jar" level="project" />
+=======
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
+>>>>>>> 781e18f916e1b7a04b926abcfb62bc8911447024:src/.idea/modules/src.iml
   </component>
 </module>

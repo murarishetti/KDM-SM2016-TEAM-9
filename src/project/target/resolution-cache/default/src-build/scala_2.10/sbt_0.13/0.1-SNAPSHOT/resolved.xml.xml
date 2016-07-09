@@ -4,8 +4,8 @@
 		module="src-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160629141256"
-		e:sbtVersion="0.13" e:scalaVersion="2.10"
+		publication="20160708213046"
+		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>
 		src-build

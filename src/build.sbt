@@ -17,3 +17,4 @@ libraryDependencies ++= Seq(
 )
 libraryDependencies += "org.json" % "json" % "20131018"
 javacOptions in (Compile, compile) ++= Seq("-source", "1.8", "-target", "1.8", "-g:lines")
+libraryDependencies += "com.googlecode.json-simple" % "json-simple" % "1.1.1"

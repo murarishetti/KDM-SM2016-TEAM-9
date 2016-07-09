@@ -1,0 +1,837 @@
+[warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
+[warn]  * org.scala-lang:scala-compiler:(2.11.0, 2.11.8)
+[warn]  * org.scala-lang.modules:scala-parser-combinators_2.11:(1.0.1, 1.0.4)
+[warn]  * org.scala-lang.modules:scala-xml_2.11:(1.0.2, 1.0.4)
+[debug] :: resolving dependencies :: default#sparkopenie$sources_2.11;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#sparkopenie$sources_2.11;1.0 [compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57b0c9fd
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
+[debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0-preview [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-core_2.11;2.0.0-preview ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d97aa0a
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-core_2.11;2.0.0-preview
+[debug] 	found org.apache.spark#spark-core_2.11;2.0.0-preview in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0-preview [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0-preview [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0-preview [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.avro#avro-mapred;1.7.7 [compile->default(compile)]
+[info] Resolving org.apache.avro#avro-mapred;1.7.7 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@666756a1
+[debug] sbt-chain: module revision found in cache: org.apache.avro#avro-mapred;1.7.7
+[debug] 	found org.apache.avro#avro-mapred;1.7.7 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.avro#avro-mapred;1.7.7 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.avro#avro-mapred;1.7.7 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.avro#avro-mapred;1.7.7 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.avro#avro-ipc;1.7.7 [compile->default(compile)]
+[info] Resolving org.apache.avro#avro-ipc;1.7.7 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f407b52
+[debug] sbt-chain: module revision found in cache: org.apache.avro#avro-ipc;1.7.7
+[debug] 	found org.apache.avro#avro-ipc;1.7.7 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.avro#avro-ipc;1.7.7 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.avro#avro-ipc;1.7.7 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.avro#avro-ipc;1.7.7 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.avro#avro;1.7.7 [compile->default(compile)]
+[info] Resolving org.apache.avro#avro;1.7.7 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17a95ab6
+[debug] sbt-chain: module revision found in cache: org.apache.avro#avro;1.7.7
+[debug] 	found org.apache.avro#avro;1.7.7 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.avro#avro;1.7.7 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.avro#avro;1.7.7 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.avro#avro;1.7.7 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->default(compile)]
+[info] Resolving org.codehaus.jackson#jackson-core-asl;1.9.13 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1211d02b
+[debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-core-asl;1.9.13
+[debug] 	found org.codehaus.jackson#jackson-core-asl;1.9.13 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->default(compile)]
+[info] Resolving org.codehaus.jackson#jackson-mapper-asl;1.9.13 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70480b21
+[debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-mapper-asl;1.9.13
+[debug] 	found org.codehaus.jackson#jackson-mapper-asl;1.9.13 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)]
+[info] Resolving org.apache.commons#commons-compress;1.4.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ff747d1
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-compress;1.4.1
+[debug] 	found org.apache.commons#commons-compress;1.4.1 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.tukaani#xz;1.0 [compile->default(compile)]
+[info] Resolving org.tukaani#xz;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fa05047
+[debug] sbt-chain: module revision found in cache: org.tukaani#xz;1.0
+[debug] 	found org.tukaani#xz;1.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.tukaani#xz;1.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.tukaani#xz;1.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.tukaani#xz;1.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.twitter#chill_2.11;0.8.0 [compile->default(compile)]
+[info] Resolving com.twitter#chill_2.11;0.8.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5835c2c8
+[debug] sbt-chain: module revision found in cache: com.twitter#chill_2.11;0.8.0
+[debug] 	found com.twitter#chill_2.11;0.8.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.twitter#chill_2.11;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.twitter#chill_2.11;0.8.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.twitter#chill_2.11;0.8.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.twitter#chill-java;0.8.0 [compile->default(compile)]
+[info] Resolving com.twitter#chill-java;0.8.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ddb6e14
+[debug] sbt-chain: module revision found in cache: com.twitter#chill-java;0.8.0
+[debug] 	found com.twitter#chill-java;0.8.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.twitter#chill-java;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.twitter#chill-java;0.8.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.twitter#chill-java;0.8.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.esotericsoftware#kryo-shaded;3.0.3 [compile->default(compile)]
+[info] Resolving com.esotericsoftware#kryo-shaded;3.0.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@253ad98e
+[debug] sbt-chain: module revision found in cache: com.esotericsoftware#kryo-shaded;3.0.3
+[debug] 	found com.esotericsoftware#kryo-shaded;3.0.3 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.esotericsoftware#kryo-shaded;3.0.3 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.esotericsoftware#kryo-shaded;3.0.3 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.esotericsoftware#kryo-shaded;3.0.3 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.esotericsoftware#minlog;1.3.0 [compile->default(compile)]
+[info] Resolving com.esotericsoftware#minlog;1.3.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c3f2dff
+[debug] sbt-chain: module revision found in cache: com.esotericsoftware#minlog;1.3.0
+[debug] 	found com.esotericsoftware#minlog;1.3.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.esotericsoftware#minlog;1.3.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.esotericsoftware#minlog;1.3.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.esotericsoftware#minlog;1.3.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->default(compile)]
+[info] Resolving org.objenesis#objenesis;2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6866ac7a
+[debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;2.1
+[debug] 	found org.objenesis#objenesis;2.1 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->default(compile)]
+[info] Resolving org.apache.xbean#xbean-asm5-shaded;4.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6142600d
+[debug] sbt-chain: module revision found in cache: org.apache.xbean#xbean-asm5-shaded;4.4
+[debug] 	found org.apache.xbean#xbean-asm5-shaded;4.4 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-common;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d561fea
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-common;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-common;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-annotations;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5efbad8c
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-annotations;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-annotations;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-cli#commons-cli;1.2 [compile->default(compile)]
+[info] Resolving commons-cli#commons-cli;1.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f68e422
+[debug] sbt-chain: module revision found in cache: commons-cli#commons-cli;1.2
+[debug] 	found commons-cli#commons-cli;1.2 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-cli#commons-cli;1.2 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-cli#commons-cli;1.2 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-cli#commons-cli;1.2 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-math;2.1 [compile->default(compile)]
+[info] Resolving org.apache.commons#commons-math;2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a64eb7f
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math;2.1
+[debug] 	found org.apache.commons#commons-math;2.1 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-math;2.1 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-math;2.1 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-math;2.1 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)]
+[info] Resolving commons-httpclient#commons-httpclient;3.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@594cfce1
+[debug] sbt-chain: module revision found in cache: commons-httpclient#commons-httpclient;3.1
+[debug] 	found commons-httpclient#commons-httpclient;3.1 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-io#commons-io;2.1 [compile->default(compile)]
+[info] Resolving commons-io#commons-io;2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ed770cf
+[debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.1
+[debug] 	found commons-io#commons-io;2.1 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-io#commons-io;2.1 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-io#commons-io;2.1 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-io#commons-io;2.1 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->log4j#log4j;1.2.17 [compile->default(compile)]
+[info] Resolving log4j#log4j;1.2.17 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53c10fe0
+[debug] sbt-chain: module revision found in cache: log4j#log4j;1.2.17
+[debug] 	found log4j#log4j;1.2.17 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->log4j#log4j;1.2.17 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->log4j#log4j;1.2.17 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->log4j#log4j;1.2.17 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-lang#commons-lang;2.5 [compile->default(compile)]
+[info] Resolving commons-lang#commons-lang;2.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51cebcc0
+[debug] sbt-chain: module revision found in cache: commons-lang#commons-lang;2.5
+[debug] 	found commons-lang#commons-lang;2.5 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-lang#commons-lang;2.5 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-lang#commons-lang;2.5 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-lang#commons-lang;2.5 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-configuration#commons-configuration;1.6 [compile->default(compile)]
+[info] Resolving commons-configuration#commons-configuration;1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52a3e445
+[debug] sbt-chain: module revision found in cache: commons-configuration#commons-configuration;1.6
+[debug] 	found commons-configuration#commons-configuration;1.6 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-configuration#commons-configuration;1.6 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-configuration#commons-configuration;1.6 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-configuration#commons-configuration;1.6 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-collections#commons-collections;3.2.1 [compile->default(compile)]
+[info] Resolving commons-collections#commons-collections;3.2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bd1c7a8
+[debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
+[debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-collections#commons-collections;3.2.1 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-collections#commons-collections;3.2.1 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-collections#commons-collections;3.2.1 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-digester#commons-digester;1.8 [compile->default(compile)]
+[info] Resolving commons-digester#commons-digester;1.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74e0e514
+[debug] sbt-chain: module revision found in cache: commons-digester#commons-digester;1.8
+[debug] 	found commons-digester#commons-digester;1.8 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-digester#commons-digester;1.8 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-digester#commons-digester;1.8 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-digester#commons-digester;1.8 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [compile->default(compile)]
+[info] Resolving commons-beanutils#commons-beanutils;1.7.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71cb1a21
+[debug] sbt-chain: module revision found in cache: commons-beanutils#commons-beanutils;1.7.0
+[debug] 	found commons-beanutils#commons-beanutils;1.7.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-auth;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@624ccba3
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-auth;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-auth;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-hdfs;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@400a4a7
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-hdfs;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-hdfs;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->default(compile)]
+[info] Resolving org.mortbay.jetty#jetty-util;6.1.26 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13aafbba
+[debug] sbt-chain: module revision found in cache: org.mortbay.jetty#jetty-util;6.1.26
+[debug] 	found org.mortbay.jetty#jetty-util;6.1.26 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a918ea6
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@6a918ea6
+[debug] 		tried C:\Users\chanti\.ivy2\local\org.apache.hadoop\hadoop-mapreduce-client-app\2.2.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0!hadoop-mapreduce-client-app.pom(pom.original) (496ms)
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 in jcenter
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50ca97e5
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@50ca97e5
+[debug] 		tried C:\Users\chanti\.ivy2\local\org.apache.hadoop\hadoop-mapreduce-client-common\2.2.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.pom(pom.original) (422ms)
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 in jcenter
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-common;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75120242
+[info] Resolving org.apache.hadoop#hadoop-yarn-common;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@75120242
+[debug] 		tried C:\Users\chanti\.ivy2\local\org.apache.hadoop\hadoop-yarn-common\2.2.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-common;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-yarn-common;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.pom(pom.original) (418ms)
+[info] Resolving org.apache.hadoop#hadoop-yarn;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-yarn-common;2.2.0 in jcenter
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-api;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ff795b
+[info] Resolving org.apache.hadoop#hadoop-yarn-api;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@2ff795b
+[debug] 		tried C:\Users\chanti\.ivy2\local\org.apache.hadoop\hadoop-yarn-api\2.2.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-api;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-yarn-api;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.pom(pom.original) (379ms)
+[info] Resolving org.apache.hadoop#hadoop-yarn;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-yarn-api;2.2.0 in jcenter
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.google.inject#guice;3.0 [compile->default(compile)]
+[info] Resolving com.google.inject#guice;3.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b413618
+[debug] sbt-chain: module revision found in cache: com.google.inject#guice;3.0
+[debug] 	found com.google.inject#guice;3.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.google.inject#guice;3.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.google.inject#guice;3.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.google.inject#guice;3.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->default(compile)]
+[info] Resolving javax.inject#javax.inject;1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1177f4e
+[debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
+[debug] 	found javax.inject#javax.inject;1 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->default(compile)]
+[info] Resolving aopalliance#aopalliance;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@261cfb17
+[debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
+[debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->default(compile)]
+[info] Resolving org.sonatype.sisu.inject#cglib;2.2.1-v20090111 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64d83749
+[debug] sbt-chain: module revision found in cache: org.sonatype.sisu.inject#cglib;2.2.1-v20090111
+[debug] 	found org.sonatype.sisu.inject#cglib;2.2.1-v20090111 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2099b252
+[info] Resolving org.apache.hadoop#hadoop-yarn-client;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@2099b252
+[debug] 		tried C:\Users\chanti\.ivy2\local\org.apache.hadoop\hadoop-yarn-client\2.2.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-client;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-yarn-client;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-client;2.2.0!hadoop-yarn-client.pom(pom.original) (377ms)
+[info] Resolving org.apache.hadoop#hadoop-yarn;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-yarn-client;2.2.0 in jcenter
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@501d966d
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@501d966d
+[debug] 		tried C:\Users\chanti\.ivy2\local\org.apache.hadoop\hadoop-mapreduce-client-core\2.2.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0!hadoop-mapreduce-client-core.pom(pom.original) (405ms)
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 in jcenter
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-server-common;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f3d78b9
+[info] Resolving org.apache.hadoop#hadoop-yarn-server-common;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@5f3d78b9
+[debug] 		tried C:\Users\chanti\.ivy2\local\org.apache.hadoop\hadoop-yarn-server-common\2.2.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-server-common;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-yarn-server-common;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-common;2.2.0!hadoop-yarn-server-common.pom(pom.original) (463ms)
+[info] Resolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn-server;2.2.0 {}
+[info] Resolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn-server;2.2.0 {}
+[debug] 		tried C:\Users\chanti\.ivy2\local\org.apache.hadoop\hadoop-yarn-server\2.2.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-server;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-yarn-server;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server;2.2.0!hadoop-yarn-server.pom(pom.original) (497ms)
+[info] Resolving org.apache.hadoop#hadoop-yarn;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0
+[debug] 		tried C:\Users\chanti\.ivy2\local\org.apache.hadoop\hadoop-yarn-server\2.2.0\jars\hadoop-yarn-server.jar
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.jar
+[debug] 	found org.apache.hadoop#hadoop-yarn-server-common;2.2.0 in jcenter
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b913ef5
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@5b913ef5
+[debug] 		tried C:\Users\chanti\.ivy2\local\org.apache.hadoop\hadoop-mapreduce-client-shuffle\2.2.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.pom(pom.original) (370ms)
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 in jcenter
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59152c06
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@59152c06
+[debug] 		tried C:\Users\chanti\.ivy2\local\org.apache.hadoop\hadoop-mapreduce-client-jobclient\2.2.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0!hadoop-mapreduce-client-jobclient.pom(pom.original) (455ms)
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 in jcenter
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e8dca75
+[info] Resolving org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@5e8dca75
+[debug] 		tried C:\Users\chanti\.ivy2\local\org.apache.hadoop\hadoop-yarn-server-nodemanager\2.2.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0!hadoop-yarn-server-nodemanager.pom(pom.original) (387ms)
+[info] Resolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn-server;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-server;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 in jcenter
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-launcher_2.11;2.0.0-preview [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-launcher_2.11;2.0.0-preview ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14f50f51
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-launcher_2.11;2.0.0-preview
+[debug] 	found org.apache.spark#spark-launcher_2.11;2.0.0-preview in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-launcher_2.11;2.0.0-preview [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-launcher_2.11;2.0.0-preview [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-launcher_2.11;2.0.0-preview [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-tags_2.11;2.0.0-preview [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-tags_2.11;2.0.0-preview ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f86946a
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-tags_2.11;2.0.0-preview
+[debug] 	found org.apache.spark#spark-tags_2.11;2.0.0-preview in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-tags_2.11;2.0.0-preview [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-tags_2.11;2.0.0-preview [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-tags_2.11;2.0.0-preview [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [compile->default(compile)]
+[info] Resolving org.scalatest#scalatest_2.11;2.2.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79bae9fb
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.6
+[debug] 	found org.scalatest#scalatest_2.11;2.2.6 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a265581
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.spark-project.spark#unused;1.0.0 [compile->default(compile)]
+[info] Resolving org.spark-project.spark#unused;1.0.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ef15818
+[debug] sbt-chain: module revision found in cache: org.spark-project.spark#unused;1.0.0
+[debug] 	found org.spark-project.spark#unused;1.0.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.spark-project.spark#unused;1.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.spark-project.spark#unused;1.0.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.spark-project.spark#unused;1.0.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-network-common_2.11;2.0.0-preview [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-network-common_2.11;2.0.0-preview ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3732ad24
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-network-common_2.11;2.0.0-preview
+[debug] 	found org.apache.spark#spark-network-common_2.11;2.0.0-preview in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-network-common_2.11;2.0.0-preview [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-network-common_2.11;2.0.0-preview [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-network-common_2.11;2.0.0-preview [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->io.netty#netty-all;4.0.29.Final [compile->default(compile)]
+[info] Resolving io.netty#netty-all;4.0.29.Final ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63e0db
+[debug] sbt-chain: module revision found in cache: io.netty#netty-all;4.0.29.Final
+[debug] 	found io.netty#netty-all;4.0.29.Final in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->io.netty#netty-all;4.0.29.Final [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->io.netty#netty-all;4.0.29.Final [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->io.netty#netty-all;4.0.29.Final [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-network-shuffle_2.11;2.0.0-preview [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-network-shuffle_2.11;2.0.0-preview ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55a05f1f
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-network-shuffle_2.11;2.0.0-preview
+[debug] 	found org.apache.spark#spark-network-shuffle_2.11;2.0.0-preview in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-network-shuffle_2.11;2.0.0-preview [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-network-shuffle_2.11;2.0.0-preview [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-network-shuffle_2.11;2.0.0-preview [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->default(compile)]
+[info] Resolving org.fusesource.leveldbjni#leveldbjni-all;1.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41d4394a
+[debug] sbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-all;1.8
+[debug] 	found org.fusesource.leveldbjni#leveldbjni-all;1.8 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [compile->default(compile)]
+[info] Resolving com.fasterxml.jackson.core#jackson-databind;2.5.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79fd0573
+[debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.5.3
+[debug] 	found com.fasterxml.jackson.core#jackson-databind;2.5.3 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->default(compile)]
+[info] Resolving com.fasterxml.jackson.core#jackson-core;2.5.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@303e87bb
+[debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.5.3
+[debug] 	found com.fasterxml.jackson.core#jackson-core;2.5.3 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.3 [compile->default(compile)]
+[info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.5.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c7cc9a3
+[debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.5.3
+[debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.5.3 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.3 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.3 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.3 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-unsafe_2.11;2.0.0-preview [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-unsafe_2.11;2.0.0-preview ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69a3149c
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-unsafe_2.11;2.0.0-preview
+[debug] 	found org.apache.spark#spark-unsafe_2.11;2.0.0-preview in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-unsafe_2.11;2.0.0-preview [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-unsafe_2.11;2.0.0-preview [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.spark#spark-unsafe_2.11;2.0.0-preview [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->default(compile)]
+[info] Resolving net.java.dev.jets3t#jets3t;0.7.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7be6a2d7
+[debug] sbt-chain: module revision found in cache: net.java.dev.jets3t#jets3t;0.7.1
+[debug] 	found net.java.dev.jets3t#jets3t;0.7.1 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->default(compile)]
+[info] Resolving org.apache.curator#curator-recipes;2.4.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55f0da1d
+[debug] sbt-chain: module revision found in cache: org.apache.curator#curator-recipes;2.4.0
+[debug] 	found org.apache.curator#curator-recipes;2.4.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.curator#curator-framework;2.4.0 [compile->default(compile)]
+[info] Resolving org.apache.curator#curator-framework;2.4.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9e4e4f4
+[debug] sbt-chain: module revision found in cache: org.apache.curator#curator-framework;2.4.0
+[debug] 	found org.apache.curator#curator-framework;2.4.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.curator#curator-framework;2.4.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.curator#curator-framework;2.4.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.curator#curator-framework;2.4.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.curator#curator-client;2.4.0 [compile->default(compile)]
+[info] Resolving org.apache.curator#curator-client;2.4.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@170266fc
+[debug] sbt-chain: module revision found in cache: org.apache.curator#curator-client;2.4.0
+[debug] 	found org.apache.curator#curator-client;2.4.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.curator#curator-client;2.4.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.curator#curator-client;2.4.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.curator#curator-client;2.4.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->default(compile)]
+[info] Resolving org.apache.zookeeper#zookeeper;3.4.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@699cb502
+[debug] sbt-chain: module revision found in cache: org.apache.zookeeper#zookeeper;3.4.5
+[debug] 	found org.apache.zookeeper#zookeeper;3.4.5 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.google.guava#guava;14.0.1 [compile->default(compile)]
+[info] Resolving com.google.guava#guava;14.0.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2113f7ee
+[debug] sbt-chain: module revision found in cache: com.google.guava#guava;14.0.1
+[debug] 	found com.google.guava#guava;14.0.1 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.google.guava#guava;14.0.1 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.google.guava#guava;14.0.1 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.google.guava#guava;14.0.1 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->javax.servlet#javax.servlet-api;3.1.0 [compile->default(compile)]
+[info] Resolving javax.servlet#javax.servlet-api;3.1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27e75a36
+[debug] sbt-chain: module revision found in cache: javax.servlet#javax.servlet-api;3.1.0
+[debug] 	found javax.servlet#javax.servlet-api;3.1.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->javax.servlet#javax.servlet-api;3.1.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->javax.servlet#javax.servlet-api;3.1.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->javax.servlet#javax.servlet-api;3.1.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->default(compile)]
+[info] Resolving org.apache.commons#commons-lang3;3.3.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26c08fe5
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.3.2
+[debug] 	found org.apache.commons#commons-lang3;3.3.2 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-math3;3.4.1 [compile->default(compile)]
+[info] Resolving org.apache.commons#commons-math3;3.4.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76162eb7
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math3;3.4.1
+[debug] 	found org.apache.commons#commons-math3;3.4.1 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-math3;3.4.1 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-math3;3.4.1 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.apache.commons#commons-math3;3.4.1 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.16 [compile->default(compile)]
+[info] Resolving org.slf4j#slf4j-api;1.7.16 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@448c691f
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.16
+[debug] 	found org.slf4j#slf4j-api;1.7.16 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.16 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.16 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.16 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.16 [compile->default(compile)]
+[info] Resolving org.slf4j#jul-to-slf4j;1.7.16 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c229b77
+[debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.16
+[debug] 	found org.slf4j#jul-to-slf4j;1.7.16 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.16 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.16 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.16 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.16 [compile->default(compile)]
+[info] Resolving org.slf4j#jcl-over-slf4j;1.7.16 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40f0ef69
+[debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.16
+[debug] 	found org.slf4j#jcl-over-slf4j;1.7.16 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.16 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.16 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.16 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.16 [compile->default(compile)]
+[info] Resolving org.slf4j#slf4j-log4j12;1.7.16 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@314100be
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-log4j12;1.7.16
+[debug] 	found org.slf4j#slf4j-log4j12;1.7.16 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.16 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.16 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.16 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.ning#compress-lzf;1.0.3 [compile->default(compile)]
+[info] Resolving com.ning#compress-lzf;1.0.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bfdacf6
+[debug] sbt-chain: module revision found in cache: com.ning#compress-lzf;1.0.3
+[debug] 	found com.ning#compress-lzf;1.0.3 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.ning#compress-lzf;1.0.3 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.ning#compress-lzf;1.0.3 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.ning#compress-lzf;1.0.3 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->default(compile)]
+[info] Resolving org.xerial.snappy#snappy-java;1.1.2.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5715c342
+[debug] sbt-chain: module revision found in cache: org.xerial.snappy#snappy-java;1.1.2.4
+[debug] 	found org.xerial.snappy#snappy-java;1.1.2.4 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->net.jpountz.lz4#lz4;1.3.0 [compile->default(compile)]
+[info] Resolving net.jpountz.lz4#lz4;1.3.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5349047d
+[debug] sbt-chain: module revision found in cache: net.jpountz.lz4#lz4;1.3.0
+[debug] 	found net.jpountz.lz4#lz4;1.3.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->net.jpountz.lz4#lz4;1.3.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->net.jpountz.lz4#lz4;1.3.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->net.jpountz.lz4#lz4;1.3.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.roaringbitmap#RoaringBitmap;0.5.11 [compile->default(compile)]
+[info] Resolving org.roaringbitmap#RoaringBitmap;0.5.11 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fab8654
+[debug] sbt-chain: module revision found in cache: org.roaringbitmap#RoaringBitmap;0.5.11
+[debug] 	found org.roaringbitmap#RoaringBitmap;0.5.11 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.roaringbitmap#RoaringBitmap;0.5.11 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.roaringbitmap#RoaringBitmap;0.5.11 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.roaringbitmap#RoaringBitmap;0.5.11 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-net#commons-net;2.2 [compile->default(compile)]
+[info] Resolving commons-net#commons-net;2.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71592f93
+[debug] sbt-chain: module revision found in cache: commons-net#commons-net;2.2
+[debug] 	found commons-net#commons-net;2.2 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-net#commons-net;2.2 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-net#commons-net;2.2 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->commons-net#commons-net;2.2 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.json4s#json4s-jackson_2.11;3.2.11 [compile->default(compile)]
+[info] Resolving org.json4s#json4s-jackson_2.11;3.2.11 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cf61337
+[debug] sbt-chain: module revision found in cache: org.json4s#json4s-jackson_2.11;3.2.11
+[debug] 	found org.json4s#json4s-jackson_2.11;3.2.11 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.json4s#json4s-jackson_2.11;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.json4s#json4s-jackson_2.11;3.2.11 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.json4s#json4s-jackson_2.11;3.2.11 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.json4s#json4s-core_2.11;3.2.11 [compile->default(compile)]
+[info] Resolving org.json4s#json4s-core_2.11;3.2.11 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72cb7e6d
+[debug] sbt-chain: module revision found in cache: org.json4s#json4s-core_2.11;3.2.11
+[debug] 	found org.json4s#json4s-core_2.11;3.2.11 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.json4s#json4s-core_2.11;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.json4s#json4s-core_2.11;3.2.11 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.json4s#json4s-core_2.11;3.2.11 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.json4s#json4s-ast_2.11;3.2.11 [compile->default(compile)]
+[info] Resolving org.json4s#json4s-ast_2.11;3.2.11 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@336e49f9
+[debug] sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.11;3.2.11
+[debug] 	found org.json4s#json4s-ast_2.11;3.2.11 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.json4s#json4s-ast_2.11;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.json4s#json4s-ast_2.11;3.2.11 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.json4s#json4s-ast_2.11;3.2.11 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->default(compile)]
+[info] Resolving com.thoughtworks.paranamer#paranamer;2.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2468f79f
+[debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.6
+[debug] 	found com.thoughtworks.paranamer#paranamer;2.6 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang#scalap;2.11.0 [compile->default(compile)]
+[info] Resolving org.scala-lang#scalap;2.11.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7363b220
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.11.0
+[debug] 	found org.scala-lang#scalap;2.11.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang#scalap;2.11.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang#scalap;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang#scalap;2.11.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.0 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.11.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1650f9bb
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.0
+[debug] 	found org.scala-lang#scala-compiler;2.11.0 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.0 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.0 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12fe8a6e
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.glassfish.jersey.core#jersey-client;2.22.2 [compile->default(compile)]
+[info] Resolving org.glassfish.jersey.core#jersey-client;2.22.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e5a57d9
+[debug] sbt-chain: module revision found in cache: org.glassfish.jersey.core#jersey-client;2.22.2
+[debug] 	found org.glassfish.jersey.core#jersey-client;2.22.2 in sbt-chain
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.glassfish.jersey.core#jersey-client;2.22.2 [compile->runtime]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.glassfish.jersey.core#jersey-client;2.22.2 [compile->compile]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->org.glassfish.jersey.core#jersey-client;2.22.2 [compile->master]
+[debug] == resolving dependencies default#sparkopenie$sources_2.11;1.0->javax.ws.rs#javax.ws.rs-api;2.0.1 [compile->default(compile)]
+[info] Resolving javax.ws.rs#javax.ws.rs-api;2.0.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ba2df8c
