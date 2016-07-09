@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="src" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+<<<<<<< HEAD:src/.idea/modules/src.iml
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+=======
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+>>>>>>> e284eff23d2dbc36bfbb8c19b731125aeb1c0d9d:src/.idea/modules/src.iml
     <output url="file://$MODULE_DIR$/../../target/scala-2.11/classes" />
     <output-test url="file://$MODULE_DIR$/../../target/scala-2.11/test-classes" />
     <exclude-output />
@@ -160,7 +164,6 @@
     <orderEntry type="library" name="SBT: org.objenesis:objenesis:2.1:jar" level="project" />
     <orderEntry type="library" name="SBT: org.roaringbitmap:RoaringBitmap:0.5.11:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-compiler:2.11.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.11.8:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang:scalap:2.11.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.1:jar" level="project" />
@@ -193,5 +196,12 @@
         </SOURCES>
       </library>
     </orderEntry>
+<<<<<<< HEAD:src/.idea/modules/kdm.iml
+    <orderEntry type="library" name="SBT: com.googlecode.json-simple:json-simple:1.1.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: junit:junit:4.10:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.hamcrest:hamcrest-core:1.1:jar" level="project" />
+=======
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
+>>>>>>> 781e18f916e1b7a04b926abcfb62bc8911447024:src/.idea/modules/src.iml
   </component>
 </module>

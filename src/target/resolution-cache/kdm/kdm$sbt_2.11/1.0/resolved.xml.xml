@@ -4,7 +4,7 @@
 		module="kdm$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160707231316"
+		publication="20160708220301"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
