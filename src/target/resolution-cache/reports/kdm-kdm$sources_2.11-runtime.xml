@@ -7,7 +7,11 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+<<<<<<< HEAD
+		date="20160708022315"/>
+=======
 		date="20160708224703"/>
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
 	<dependencies>
 		<module organisation="com.googlecode.json-simple" name="json-simple">
 			<revision name="1.1.1" status="release" pubdate="20120321001133" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/json-simple/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="153">
@@ -490,7 +494,11 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient">
 			<revision name="2.2.0" status="release" pubdate="20131007013723" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="51">
+<<<<<<< HEAD
+				<metadata-artifact status="successful" details="" size="5474" time="240" location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
+=======
 				<metadata-artifact status="successful" details="" size="5474" time="315" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
 				<caller organisation="kdm" name="kdm$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-jobclient" type="jar" ext="jar" status="no" details="" size="35216" time="0" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\jars\hadoop-mapreduce-client-jobclient-2.2.0.jar">
@@ -504,7 +512,11 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app">
 			<revision name="2.2.0" status="release" pubdate="20131007013711" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="39">
+<<<<<<< HEAD
+				<metadata-artifact status="successful" details="" size="4335" time="301" location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
+=======
 				<metadata-artifact status="successful" details="" size="4335" time="479" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
 				<caller organisation="kdm" name="kdm$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-app" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="278865" time="0" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\srcs\hadoop-mapreduce-client-app-2.2.0-sources.jar">
@@ -518,7 +530,11 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-shuffle">
 			<revision name="2.2.0" status="release" pubdate="20131007013703" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="50">
+<<<<<<< HEAD
+				<metadata-artifact status="successful" details="" size="1675" time="232" location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
+=======
 				<metadata-artifact status="successful" details="" size="1675" time="209" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
 				<caller organisation="kdm" name="kdm$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-shuffle" type="jar" ext="jar" status="no" details="" size="21537" time="0" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\jars\hadoop-mapreduce-client-shuffle-2.2.0.jar">
@@ -532,7 +548,11 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-nodemanager">
 			<revision name="2.2.0" status="release" pubdate="20131007013538" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="52">
+<<<<<<< HEAD
+				<metadata-artifact status="successful" details="" size="7324" time="240" location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
+=======
 				<metadata-artifact status="successful" details="" size="7324" time="238" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
 				<caller organisation="kdm" name="kdm$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-server-nodemanager" type="jar" ext="jar" status="no" details="" size="467638" time="0" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\jars\hadoop-yarn-server-nodemanager-2.2.0.jar">
@@ -546,7 +566,11 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common">
 			<revision name="2.2.0" status="release" pubdate="20131007013659" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="40">
+<<<<<<< HEAD
+				<metadata-artifact status="successful" details="" size="3273" time="255" location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
+=======
 				<metadata-artifact status="successful" details="" size="3273" time="256" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
 				<caller organisation="kdm" name="kdm$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="244749" time="0" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\srcs\hadoop-mapreduce-client-common-2.2.0-sources.jar">
@@ -560,7 +584,11 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-common">
 			<revision name="2.2.0" status="release" pubdate="20131007013526" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="49">
+<<<<<<< HEAD
+				<metadata-artifact status="successful" details="" size="3534" time="247" location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
+=======
 				<metadata-artifact status="successful" details="" size="3534" time="192" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
 				<caller organisation="kdm" name="kdm$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-server-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="76819" time="0" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\srcs\hadoop-yarn-server-common-2.2.0-sources.jar">
@@ -574,7 +602,11 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-core">
 			<revision name="2.2.0" status="release" pubdate="20131007013626" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="48">
+<<<<<<< HEAD
+				<metadata-artifact status="successful" details="" size="3085" time="260" location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
+=======
 				<metadata-artifact status="successful" details="" size="3085" time="246" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
 				<caller organisation="kdm" name="kdm$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-core" type="jar" ext="jar" status="no" details="" size="1455001" time="0" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\jars\hadoop-mapreduce-client-core-2.2.0.jar">
@@ -588,7 +620,11 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-client">
 			<revision name="2.2.0" status="release" pubdate="20131007013604" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="47">
+<<<<<<< HEAD
+				<metadata-artifact status="successful" details="" size="1961" time="232" location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom"/>
+=======
 				<metadata-artifact status="successful" details="" size="1961" time="239" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom"/>
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
 				<caller organisation="kdm" name="kdm$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-client" type="jar" ext="jar" status="no" details="" size="94728" time="0" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\jars\hadoop-yarn-client-2.2.0.jar">
@@ -602,7 +638,11 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-common">
 			<revision name="2.2.0" status="release" pubdate="20131007013515" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="41">
+<<<<<<< HEAD
+				<metadata-artifact status="successful" details="" size="5032" time="291" location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
+=======
 				<metadata-artifact status="successful" details="" size="5032" time="244" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
 				<caller organisation="kdm" name="kdm$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-common" type="jar" ext="jar" status="no" details="" size="1301627" time="0" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\jars\hadoop-yarn-common-2.2.0.jar">
@@ -616,7 +656,11 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-api">
 			<revision name="2.2.0" status="release" pubdate="20131007013452" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="42">
+<<<<<<< HEAD
+				<metadata-artifact status="successful" details="" size="2956" time="236" location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\anude\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
+=======
 				<metadata-artifact status="successful" details="" size="2956" time="322" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
 				<caller organisation="kdm" name="kdm$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-api" type="jar" ext="jar" status="no" details="" size="1158936" time="0" location="C:\Users\chanti\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\jars\hadoop-yarn-api-2.2.0.jar">
