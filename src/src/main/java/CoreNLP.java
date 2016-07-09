@@ -14,6 +14,8 @@ import java.io.*;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 
 
 /**
@@ -41,8 +43,11 @@ public class CoreNLP {
         System.out.println(text);
        // Add your text here!
 
+        Logger.getLogger("org").setLevel(Level.OFF);
+        Logger.getLogger("akka").setLevel(Level.OFF);
+
 // create an empty Annotation just with the given text
-        Annotation document = new Annotation("New Haven warns of tainted; drugs amid overdose spike. Gov. Malloy Warns Of Very Dangerous Situation In New Haven Amid Heroin hours ago");
+        Annotation document = new Annotation(text);
 
 // run all Annotators on this text
         pipeline.annotate(document);

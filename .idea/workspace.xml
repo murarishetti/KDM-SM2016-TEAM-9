@@ -2,10 +2,395 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b01a105e-20c5-4e59-aef6-788bb7e5658a" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/src/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm$sources_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm$sources_2.11/1.0/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm$sources_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm$sources_2.11/1.0/resolved.xml.xml" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/data/text8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/project/target/config-classes/$fb07840011c618dc9122$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/project/target/config-classes/$fb07840011c618dc9122$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/project/target/config-classes/$fb07840011c618dc9122.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$1512d3595d9b49b01db4$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$1512d3595d9b49b01db4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$2ad15648dfdd09adf529.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$8328834f82acddd46ed4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$c5ea2620c25cec9a7bcb$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$c5ea2620c25cec9a7bcb$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$c5ea2620c25cec9a7bcb.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$d30cc71e6ad66a0c64de$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$d30cc71e6ad66a0c64de$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$d30cc71e6ad66a0c64de.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$dd8e63615b80a627ac83.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$ed2b0771a873d38a8d59.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/$global/$global/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/$global/ivySbt/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/$global/projectDescriptors/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/compile/$global/$global/discoveredMainClasses/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/compile/compile/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/SparkW2V$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/SparkW2V$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/SparkW2V$$anonfun$main$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/SparkW2V$$anonfun$main$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/SparkW2V$$anonfun$main$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/SparkW2V$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/SparkW2V.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/CoreNLP.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/SparkW2VML$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/SparkW2VML$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/SparkW2VML$$anonfun$main$2$$anonfun$apply$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/SparkW2VML$$anonfun$main$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/SparkW2VML$$typecreator1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/SparkW2VML$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/SparkW2VML.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/TFIDF$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/TFIDF$$anonfun$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/TFIDF$$anonfun$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/TFIDF$$anonfun$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/TFIDF$$anonfun$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/TFIDF$$anonfun$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/TFIDF$$anonfun$getTopTFIDFWords$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/TFIDF$$anonfun$getTopTFIDFWords$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/TFIDF$$anonfun$getTopTFIDFWords$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/TFIDF$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/target/scala-2.11/classes/mlpipeline/TFIDF.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/.idea/modules/src-build.iml~HEAD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/.idea/modules/src-build.iml~e284eff23d2dbc36bfbb8c19b731125aeb1c0d9d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__aopalliance_aopalliance_1_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_clearspring_analytics_stream_2_7_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_esotericsoftware_kryo_shaded_3_0_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_esotericsoftware_minlog_1_3_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_annotations_2_5_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_core_2_5_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_databind_2_5_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_5_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_github_fommil_netlib_core_1_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_github_rwl_jtransforms_2_4_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_google_code_findbugs_jsr305_1_3_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_google_guava_guava_14_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_google_inject_guice_3_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_google_protobuf_protobuf_java_2_6_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_googlecode_efficient_java_matrix_library_ejml_0_23_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_io7m_xom_xom_1_2_10_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_ning_compress_lzf_1_0_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_thoughtworks_paranamer_paranamer_2_6_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_twitter_chill_2_11_0_8_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_twitter_chill_java_0_8_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__com_univocity_univocity_parsers_2_1_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__commons_beanutils_commons_beanutils_1_7_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__commons_beanutils_commons_beanutils_core_1_8_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__commons_cli_commons_cli_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__commons_codec_commons_codec_1_10_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__commons_collections_commons_collections_3_2_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__commons_configuration_commons_configuration_1_6_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__commons_digester_commons_digester_1_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__commons_httpclient_commons_httpclient_3_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__commons_io_commons_io_2_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__commons_lang_commons_lang_2_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__commons_logging_commons_logging_1_1_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__commons_net_commons_net_2_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__de_jollyday_jollyday_0_4_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__edu_stanford_nlp_stanford_corenlp_3_6_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__edu_stanford_nlp_stanford_corenlp_3_6_0_models_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__edu_stanford_nlp_stanford_parser_3_6_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__io_dropwizard_metrics_metrics_core_3_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__io_dropwizard_metrics_metrics_graphite_3_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__io_dropwizard_metrics_metrics_json_3_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__io_dropwizard_metrics_metrics_jvm_3_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__io_netty_netty_3_8_0_Final_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__io_netty_netty_all_4_0_29_Final_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__javax_annotation_javax_annotation_api_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__javax_inject_javax_inject_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__javax_json_javax_json_api_1_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__javax_servlet_javax_servlet_api_3_1_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__javax_validation_validation_api_1_1_0_Final_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__javax_ws_rs_javax_ws_rs_api_2_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__javax_xml_bind_jaxb_api_2_2_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__joda_time_joda_time_2_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__log4j_log4j_1_2_17_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__net_java_dev_jets3t_jets3t_0_7_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__net_jpountz_lz4_lz4_1_3_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__net_razorvine_pyrolite_4_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__net_sf_jwordnet_jwnl_1_4_rc3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__net_sf_opencsv_opencsv_2_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__net_sf_py4j_py4j_0_10_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__net_sourceforge_f2j_arpack_combined_all_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_antlr_antlr4_runtime_4_5_2_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_avro_avro_1_7_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_avro_avro_ipc_1_7_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_avro_avro_ipc_1_7_7_tests_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_avro_avro_mapred_1_7_7_hadoop2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_commons_commons_compress_1_4_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_commons_commons_lang3_3_3_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_commons_commons_math3_3_4_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_commons_commons_math_2_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_curator_curator_client_2_4_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_curator_curator_framework_2_4_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_curator_curator_recipes_2_4_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_hadoop_hadoop_annotations_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_hadoop_hadoop_auth_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_hadoop_hadoop_client_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_hadoop_hadoop_common_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_hadoop_hadoop_hdfs_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_app_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_common_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_core_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_api_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_client_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_common_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_server_common_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_ivy_ivy_2_4_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_mesos_mesos_0_21_1_shaded_protobuf_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_parquet_parquet_column_1_7_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_parquet_parquet_common_1_7_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_parquet_parquet_encoding_1_7_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_parquet_parquet_format_2_3_0_incubating_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_parquet_parquet_generator_1_7_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_parquet_parquet_hadoop_1_7_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_parquet_parquet_jackson_1_7_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_spark_spark_catalyst_2_11_2_0_0_preview_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_spark_spark_core_2_11_2_0_0_preview_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_spark_spark_graphx_2_11_2_0_0_preview_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_spark_spark_launcher_2_11_2_0_0_preview_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_spark_spark_mllib_2_11_2_0_0_preview_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_spark_spark_mllib_local_2_11_2_0_0_preview_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_spark_spark_network_common_2_11_2_0_0_preview_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_spark_spark_network_shuffle_2_11_2_0_0_preview_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_spark_spark_sketch_2_11_2_0_0_preview_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_spark_spark_sql_2_11_2_0_0_preview_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_spark_spark_streaming_2_11_2_0_0_preview_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_spark_spark_tags_2_11_2_0_0_preview_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_spark_spark_unsafe_2_11_2_0_0_preview_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_xbean_xbean_asm5_shaded_4_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_apache_zookeeper_zookeeper_3_4_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_codehaus_jackson_jackson_core_asl_1_9_13_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_codehaus_jackson_jackson_mapper_asl_1_9_13_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_codehaus_janino_commons_compiler_2_7_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_codehaus_janino_janino_2_7_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_glassfish_hk2_external_javax_inject_2_4_0_b34_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_glassfish_hk2_hk2_api_2_4_0_b34_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_glassfish_hk2_hk2_locator_2_4_0_b34_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_glassfish_hk2_hk2_utils_2_4_0_b34_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_glassfish_hk2_osgi_resource_locator_1_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_glassfish_jersey_core_jersey_client_2_22_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_glassfish_jersey_core_jersey_common_2_22_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_glassfish_jersey_core_jersey_server_2_22_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_javassist_javassist_3_18_1_GA_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_jpmml_pmml_agent_1_2_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_jpmml_pmml_model_1_2_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_jpmml_pmml_schema_1_2_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_json4s_json4s_ast_2_11_3_2_11_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_json4s_json4s_core_2_11_3_2_11_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_json4s_json4s_jackson_2_11_3_2_11_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_mortbay_jetty_jetty_util_6_1_26_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_objenesis_objenesis_2_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_roaringbitmap_RoaringBitmap_0_5_11_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_scala_lang_modules_scala_xml_2_11_1_0_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_scala_lang_scala_compiler_2_11_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_11_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_scala_lang_scalap_2_11_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_scalanlp_breeze_2_11_0_11_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_scalanlp_breeze_macros_2_11_0_11_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_scalatest_scalatest_2_11_2_2_6_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_slf4j_jcl_over_slf4j_1_7_16_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_slf4j_jul_to_slf4j_1_7_16_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_16_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_slf4j_slf4j_log4j12_1_7_16_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_sonatype_sisu_inject_cglib_2_2_1_v20090111_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_spark_project_spark_unused_1_0_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_spire_math_spire_2_11_0_7_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_spire_math_spire_macros_2_11_0_7_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_tukaani_xz_1_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__org_xerial_snappy_snappy_java_1_1_2_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__oro_oro_2_0_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__xalan_xalan_2_7_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__xerces_xercesImpl_2_8_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__xml_apis_xml_apis_1_3_03_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/libraries/SBT__xmlenc_xmlenc_0_52_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/modules/spark-w2vec-build.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/modules/spark-w2vec.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/sbt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/scala_compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/build.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/data/sample" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/build.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/plugins.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/default/spark-w2vec-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/default/spark-w2vec-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/default-spark-w2vec-build-compile-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/default-spark-w2vec-build-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/default-spark-w2vec-build-docs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/default-spark-w2vec-build-optional.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/default-spark-w2vec-build-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/default-spark-w2vec-build-pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/default-spark-w2vec-build-provided.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/default-spark-w2vec-build-runtime-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/default-spark-w2vec-build-runtime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/default-spark-w2vec-build-scala-tool.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/default-spark-w2vec-build-sources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/default-spark-w2vec-build-test-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/default-spark-w2vec-build-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/ivy-report.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/resolution-cache/reports/ivy-report.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/$global/update/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/compile/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/compile/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/streams/runtime/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/src/main/java/mlpipeline/CoreNLP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/src/main/scala/SparkW2V.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/src/main/scala/mlpipeline/SparkW2VML.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/src/main/scala/mlpipeline/TFIDF.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project/project/target/config-classes/$0ee4527e31a2fd51b31d.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project/project/target/config-classes/$9845ae65ef6c540838f9$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project/project/target/config-classes/$9845ae65ef6c540838f9$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$38c05b8d34c8c2a5f858.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$743b3b56a9451b7a98b7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$79e4abaff7537db9cb7c.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$8ab3e5cfedae123df416$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$bd166edbf4e71f0c137c$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$743b3b56a9451b7a98b7$.class" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$2ad15648dfdd09adf529$.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$743b3b56a9451b7a98b7.cache" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$8328834f82acddd46ed4.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$1512d3595d9b49b01db4$.class" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$1512d3595d9b49b01db4$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$2ad15648dfdd09adf529$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$2ad15648dfdd09adf529$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$8328834f82acddd46ed4$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$8328834f82acddd46ed4$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$8328834f82acddd46ed4$.class" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$8328834f82acddd46ed4$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$dd8e63615b80a627ac83$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$dd8e63615b80a627ac83$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$dd8e63615b80a627ac83$.class" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$dd8e63615b80a627ac83$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$ed2b0771a873d38a8d59$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$ed2b0771a873d38a8d59$$anonfun$$sbtdef$1$$anonfun$apply$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$ed2b0771a873d38a8d59$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$ed2b0771a873d38a8d59$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$ed2b0771a873d38a8d59$.class" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$ed2b0771a873d38a8d59$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/project/target/config-classes/$9845ae65ef6c540838f9.cache" afterPath="$PROJECT_DIR$/src/project/project/target/config-classes/$9845ae65ef6c540838f9.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$294a4834fc454090c2b7$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$294a4834fc454090c2b7$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$294a4834fc454090c2b7$.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$294a4834fc454090c2b7$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$294a4834fc454090c2b7.cache" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$294a4834fc454090c2b7.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$2ee07d3f604f308fdeb2$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$2ee07d3f604f308fdeb2$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$2ee07d3f604f308fdeb2$.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$2ee07d3f604f308fdeb2$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$33b329ce414122b45399.cache" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$33b329ce414122b45399.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$38c05b8d34c8c2a5f858$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$38c05b8d34c8c2a5f858$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$38c05b8d34c8c2a5f858$.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$38c05b8d34c8c2a5f858$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$582a36d7514135b1b9f3$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$582a36d7514135b1b9f3$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$582a36d7514135b1b9f3$.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$582a36d7514135b1b9f3$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$5b725e87aa272c08ce2a$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$5b725e87aa272c08ce2a$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$5b725e87aa272c08ce2a$.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$5b725e87aa272c08ce2a$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$79d14b1630e4b903b0e4$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$79d14b1630e4b903b0e4$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$79d14b1630e4b903b0e4$.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$79d14b1630e4b903b0e4$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$79e4abaff7537db9cb7c$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$79e4abaff7537db9cb7c$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$8ab3e5cfedae123df416$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$8ab3e5cfedae123df416$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$9c0db1549fbc73232851$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$9c0db1549fbc73232851$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$9c0db1549fbc73232851$.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$9c0db1549fbc73232851$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$9d637e19d513157fcb62$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$9d637e19d513157fcb62$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$9d637e19d513157fcb62$.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$9d637e19d513157fcb62$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$bd166edbf4e71f0c137c$.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$bd166edbf4e71f0c137c$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$dc6428d2ff0990568f04$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$dc6428d2ff0990568f04$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$dc6428d2ff0990568f04$.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$dc6428d2ff0990568f04$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$e5b81b044aaffc41928b$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$e5b81b044aaffc41928b$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$e5b81b044aaffc41928b$.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$e5b81b044aaffc41928b$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$f73a61d704b6c66abd0f$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$f73a61d704b6c66abd0f$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$f73a61d704b6c66abd0f$.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$f73a61d704b6c66abd0f$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$fa529f621a76ffd5876e$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$fa529f621a76ffd5876e$$anonfun$$sbtdef$1$$anonfun$apply$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$fa529f621a76ffd5876e$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$fa529f621a76ffd5876e$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$fa529f621a76ffd5876e$.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$fa529f621a76ffd5876e$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$fd45840a7fd21f21088f$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$fd45840a7fd21f21088f$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$fd45840a7fd21f21088f$.class" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$fd45840a7fd21f21088f$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/src/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/src/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/src/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/src/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/src/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/KDM-SM2016-TEAM-9.iml" afterPath="$PROJECT_DIR$/.idea/KDM-SM2016-TEAM-9.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.idea/modules/src-build.iml" afterPath="$PROJECT_DIR$/src/.idea/modules/src-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.idea/modules/src.iml" afterPath="$PROJECT_DIR$/src/.idea/modules/src.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/project/target/config-classes/$fb07840011c618dc9122.cache" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/project/target/config-classes/$fb07840011c618dc9122.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$1512d3595d9b49b01db4.cache" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$1512d3595d9b49b01db4.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$2ad15648dfdd09adf529.cache" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$2ad15648dfdd09adf529.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$c5ea2620c25cec9a7bcb.cache" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$c5ea2620c25cec9a7bcb.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$d30cc71e6ad66a0c64de.cache" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$d30cc71e6ad66a0c64de.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$dd8e63615b80a627ac83.cache" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$dd8e63615b80a627ac83.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$ed2b0771a873d38a8d59.cache" afterPath="$PROJECT_DIR$/src/Spark-W2Vec/project/target/config-classes/$ed2b0771a873d38a8d59.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gTrends.txt" afterPath="$PROJECT_DIR$/src/gTrends.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$2ee07d3f604f308fdeb2.cache" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$2ee07d3f604f308fdeb2.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$582a36d7514135b1b9f3.cache" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$582a36d7514135b1b9f3.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$79d14b1630e4b903b0e4.cache" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$79d14b1630e4b903b0e4.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$79e4abaff7537db9cb7c.cache" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$79e4abaff7537db9cb7c.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$9c0db1549fbc73232851.cache" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$9c0db1549fbc73232851.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$9d637e19d513157fcb62.cache" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$9d637e19d513157fcb62.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$e5b81b044aaffc41928b.cache" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$e5b81b044aaffc41928b.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$fa529f621a76ffd5876e.cache" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$fa529f621a76ffd5876e.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/config-classes/$fd45840a7fd21f21088f.cache" afterPath="$PROJECT_DIR$/src/project/target/config-classes/$fd45840a7fd21f21088f.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/default/src-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/default/src-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/default/src-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/default/src-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-compile-internal.xml" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-compile.xml" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-docs.xml" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-optional.xml" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-plugin.xml" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-pom.xml" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-provided.xml" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-runtime.xml" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-scala-tool.xml" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-sources.xml" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-test-internal.xml" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-test.xml" afterPath="$PROJECT_DIR$/src/project/target/resolution-cache/reports/default-src-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/src/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/src/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/src/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm$sbt_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm$sbt_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm$sbt_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm$sbt_2.11/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm$sources_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm$sources_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm$sources_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm$sources_2.11/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/kdm/kdm_2.11/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm$sbt_2.11-default.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm$sbt_2.11-default.xml" />
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm$sources_2.11-compile-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm$sources_2.11-compile.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm$sources_2.11-docs.xml" />
@@ -19,10 +404,32 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm$sources_2.11-sources.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm$sources_2.11-sources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm$sources_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm$sources_2.11-test-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm$sources_2.11-test.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm$sources_2.11-test.xml" />
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-compile.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-docs.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-optional.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-plugin.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-pom.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-provided.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-runtime.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-sources.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-test.xml" afterPath="$PROJECT_DIR$/src/target/resolution-cache/reports/kdm-kdm_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="$PROJECT_DIR$/src/target/streams/$global/$global/dumpStructure/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/src/target/streams/$global/update/$global/streams/out" />
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/src/target/streams/$global/updateClassifiers/$global/streams/out" />
     </list>
     <ignored path="KDM-SM2016-TEAM-9.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/src/target/resolution-cache/" />
+    <ignored path="$PROJECT_DIR$/src/target/streams/" />
+    <ignored path="$PROJECT_DIR$/src/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/src/project/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,12 +458,21 @@
     <favorites_list name="KDM-SM2016-TEAM-9" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="DataCollection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/src/main/java/DataCollection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.17495711">
               <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="117" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DataCollection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/main/java/DataCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
               <folding />
             </state>
           </provider>
@@ -65,18 +481,22 @@
       <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="-4.4074073">
+=======
+            <state vertical-scroll-proportion="0.0">
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="summarization.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="summarization.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/src/main/scala-2.11/summarization.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.04450262">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,7 +515,7 @@
       <file leaf-file-name="uiDesigner.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -105,7 +525,7 @@
       <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -126,6 +546,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/src/main/java/DataCollection.java" />
+        <option value="$PROJECT_DIR$/src/gTrends.txt" />
       </list>
     </option>
   </component>
@@ -164,13 +585,13 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KDM-SM2016-TEAM-9" />
+              <option name="myItemId" value="kdm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KDM-SM2016-TEAM-9" />
+              <option name="myItemId" value="kdm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -184,7 +605,25 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+              <option name="myItemId" value="kdm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="KDM-SM2016-TEAM-9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kdm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -210,7 +649,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KDM-SM2016-TEAM-9" />
+              <option name="myItemId" value="kdm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -232,7 +671,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KDM-SM2016-TEAM-9" />
+              <option name="myItemId" value="kdm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -241,32 +680,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KDM-SM2016-TEAM-9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KDM-SM2016-TEAM-9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+<<<<<<< HEAD
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -285,12 +699,26 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="documentation" />
+=======
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KDM-SM2016-TEAM-9" />
+              <option name="myItemId" value="kdm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -298,33 +726,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="documentation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="KDM-SM2016-TEAM-9" />
+              <option name="myItemId" value="kdm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="KDM-SM2016-TEAM-9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="copyright" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -664,7 +1084,11 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
+<<<<<<< HEAD
     <option name="lastUpdateTimestamp" value="1467962618348" />
+=======
+    <option name="lastUpdateTimestamp" value="1468036083874" />
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
     <option name="availableProjects">
       <map>
         <entry>
@@ -704,11 +1128,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -720,17 +1149,30 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33388704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -771,11 +1213,112 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/src/main/java/DataCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/main/scala-2.11/summarization.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/main/java/CoreNLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/main/java/DataCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/main/scala-2.11/summarization.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4074073">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/src/main/java/CoreNLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/KDM-SM2016-TEAM-9.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,30 +1342,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/main/scala-2.11/summarization.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4074073">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/main/java/DataCollection.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.17495711">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="117" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+>>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gTrends.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/main/java/DataCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/main/scala-2.11/summarization.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04450262">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

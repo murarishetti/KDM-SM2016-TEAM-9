@@ -4,7 +4,7 @@
 		module="kdm_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160629141310"
+		publication="20160708224606"
 	>
 		<description>
 		kdm
@@ -44,5 +44,6 @@
 		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.0.0-preview" conf="compile->default(compile)"/>
 		<dependency org="com.google.protobuf" name="protobuf-java" rev="2.6.1" conf="compile->default(compile)"/>
 		<dependency org="org.json" name="json" rev="20131018" conf="compile->default(compile)"/>
+		<dependency org="com.googlecode.json-simple" name="json-simple" rev="1.1.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

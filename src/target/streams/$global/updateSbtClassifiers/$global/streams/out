@@ -703,9 +703,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 2412ms :: artifacts dl 119ms
-[debug] 	report for kdm#kdm$sbt_2.11;1.0 default produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\target\resolution-cache\reports\kdm-kdm$sbt_2.11-default.xml
-[debug] 	resolve done (2412ms resolve - 119ms download)
+[debug] :: resolution report :: resolve 450ms :: artifacts dl 45ms
+[debug] 	report for kdm#kdm$sbt_2.11;1.0 default produced in C:\Users\Prasanna\Documents\GitHub\KDM-SM2016-TEAM-9\src\target\resolution-cache\reports\kdm-kdm$sbt_2.11-default.xml
+[debug] 	resolve done (450ms resolve - 45ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: kdm#kdm$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1069,6 +1069,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 292ms :: artifacts dl 88ms
-[debug] 	report for kdm#kdm$sources_2.11;1.0 default produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\target\resolution-cache\reports\kdm-kdm$sources_2.11-default.xml
-[debug] 	resolve done (292ms resolve - 88ms download)
+[debug] :: resolution report :: resolve 123ms :: artifacts dl 32ms
+[debug] 	report for kdm#kdm$sources_2.11;1.0 default produced in C:\Users\Prasanna\Documents\GitHub\KDM-SM2016-TEAM-9\src\target\resolution-cache\reports\kdm-kdm$sources_2.11-default.xml
+[debug] 	resolve done (123ms resolve - 32ms download)
