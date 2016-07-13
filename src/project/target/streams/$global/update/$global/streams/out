@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Users/chanti/Documents/GitHub/KDM-SM2016-TEAM-9/src/project/}src-build...
+[info] Updating {file:/C:/Users/anude/Documents/GitHub/KDM-SM2016-TEAM-9/src/project/}src-build...
 [debug] :: resolving dependencies :: default#src-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies for default#src-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#src-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@569c5b67
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5070d5dd
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -1766,19 +1766,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 12409ms :: artifacts dl 309ms
-[debug] 	report for default#src-build;0.1-SNAPSHOT compile produced in C:\Users\chanti\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-compile.xml
-[debug] 	report for default#src-build;0.1-SNAPSHOT runtime produced in C:\Users\chanti\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-runtime.xml
-[debug] 	report for default#src-build;0.1-SNAPSHOT test produced in C:\Users\chanti\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-test.xml
-[debug] 	report for default#src-build;0.1-SNAPSHOT provided produced in C:\Users\chanti\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-provided.xml
-[debug] 	report for default#src-build;0.1-SNAPSHOT optional produced in C:\Users\chanti\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-optional.xml
-[debug] 	report for default#src-build;0.1-SNAPSHOT compile-internal produced in C:\Users\chanti\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-compile-internal.xml
-[debug] 	report for default#src-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\chanti\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-runtime-internal.xml
-[debug] 	report for default#src-build;0.1-SNAPSHOT test-internal produced in C:\Users\chanti\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-test-internal.xml
-[debug] 	report for default#src-build;0.1-SNAPSHOT plugin produced in C:\Users\chanti\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-plugin.xml
-[debug] 	report for default#src-build;0.1-SNAPSHOT sources produced in C:\Users\chanti\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-sources.xml
-[debug] 	report for default#src-build;0.1-SNAPSHOT docs produced in C:\Users\chanti\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-docs.xml
-[debug] 	report for default#src-build;0.1-SNAPSHOT pom produced in C:\Users\chanti\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-pom.xml
-[debug] 	report for default#src-build;0.1-SNAPSHOT scala-tool produced in C:\Users\chanti\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-scala-tool.xml
-[debug] 	resolve done (12409ms resolve - 309ms download)
+[debug] :: resolution report :: resolve 3355ms :: artifacts dl 392ms
+[debug] 	report for default#src-build;0.1-SNAPSHOT compile produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-compile.xml
+[debug] 	report for default#src-build;0.1-SNAPSHOT runtime produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-runtime.xml
+[debug] 	report for default#src-build;0.1-SNAPSHOT test produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-test.xml
+[debug] 	report for default#src-build;0.1-SNAPSHOT provided produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-provided.xml
+[debug] 	report for default#src-build;0.1-SNAPSHOT optional produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-optional.xml
+[debug] 	report for default#src-build;0.1-SNAPSHOT compile-internal produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-compile-internal.xml
+[debug] 	report for default#src-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-runtime-internal.xml
+[debug] 	report for default#src-build;0.1-SNAPSHOT test-internal produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-test-internal.xml
+[debug] 	report for default#src-build;0.1-SNAPSHOT plugin produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-plugin.xml
+[debug] 	report for default#src-build;0.1-SNAPSHOT sources produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-sources.xml
+[debug] 	report for default#src-build;0.1-SNAPSHOT docs produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-docs.xml
+[debug] 	report for default#src-build;0.1-SNAPSHOT pom produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-pom.xml
+[debug] 	report for default#src-build;0.1-SNAPSHOT scala-tool produced in C:\Users\anude\Documents\GitHub\KDM-SM2016-TEAM-9\src\project\target\resolution-cache\reports\default-src-build-scala-tool.xml
+[debug] 	resolve done (3355ms resolve - 392ms download)
 [info] Done updating.

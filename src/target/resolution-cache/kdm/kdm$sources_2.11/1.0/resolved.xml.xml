@@ -4,11 +4,7 @@
 		module="kdm$sources_2.11"
 		revision="1.0"
 		status="integration"
-<<<<<<< HEAD
-		publication="20160708022315"
-=======
-		publication="20160708224702"
->>>>>>> a04f7c4bf446238a044c6e49d06ef246dee05d30
+		publication="20160712120608"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
