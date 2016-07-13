@@ -4,8 +4,8 @@
 		module="spark_kmeans_fv-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160708203454"
-		e:sbtVersion="0.13" e:scalaVersion="2.10"
+		publication="20160712120848"
+		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>
 		spark_kmeans_fv-build
