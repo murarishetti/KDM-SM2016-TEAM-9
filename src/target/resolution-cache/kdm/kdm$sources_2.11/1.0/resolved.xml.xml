@@ -4,7 +4,7 @@
 		module="kdm$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160712120608"
+		publication="20160714115256"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
