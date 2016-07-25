@@ -4,7 +4,7 @@
 		module="sparklda_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160630072120"
+		publication="20160723200828"
 	>
 		<description>
 		SparkLDA

@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/KDM-SM2016-TEAM-9.iml" filepath="$PROJECT_DIR$/.idea/KDM-SM2016-TEAM-9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Spark2Ont/.idea/modules/root.iml" filepath="$PROJECT_DIR$/src/Spark2Ont/.idea/modules/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Spark2Ont/.idea/modules/root-build.iml" filepath="$PROJECT_DIR$/src/Spark2Ont/.idea/modules/root-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/Feature Vector/Spark_KMeans_FV/.idea/modules/spark_kmeans_fv.iml" filepath="$PROJECT_DIR$/src/Feature Vector/Spark_KMeans_FV/.idea/modules/spark_kmeans_fv.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/Feature Vector/Spark_KMeans_FV/.idea/modules/spark_kmeans_fv-build.iml" filepath="$PROJECT_DIR$/src/Feature Vector/Spark_KMeans_FV/.idea/modules/spark_kmeans_fv-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/SparkLDA/.idea/modules/sparklda.iml" filepath="$PROJECT_DIR$/src/SparkLDA/.idea/modules/sparklda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/SparkLDA/.idea/modules/sparklda-build.iml" filepath="$PROJECT_DIR$/src/SparkLDA/.idea/modules/sparklda-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/.idea/modules/src.iml" filepath="$PROJECT_DIR$/src/.idea/modules/src.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/.idea/modules/src-build.iml" filepath="$PROJECT_DIR$/src/.idea/modules/src-build.iml" />
     </modules>
