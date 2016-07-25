@@ -1,0 +1,3300 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://www.kdm.com/OWL/S7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://www.kdm.com/OWL/S7">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Features"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Features"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#S7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Black"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unlike"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#slot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mess"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#predecessor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#galaxy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#can"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#of"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#make"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#and"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#march"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#though"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electronics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#on"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#part"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#press"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#or"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#giant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thursday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#my"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#elongate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#team"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#trustedreviews"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#speaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#much"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#smartphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RAM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quarter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#try"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#another"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#two-year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aside"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#about"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gorilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#electronics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#galaxy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#au$"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#logo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#from"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#match"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasColor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#only"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#that"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#you"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#microphone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#,"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#impressive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flagship"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#any"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#marking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#exactly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elongate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="##"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#magnet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnionTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#minute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Size"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#will"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#800"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CaperTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#handset"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#least"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#two"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Australia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#-rrb-"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#upfront"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#port"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#month"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#switch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#microsd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#second"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mobile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#so"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#free"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#set"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sim-free"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#one"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#old"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#might"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#desk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#home"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#as"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#which"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#down"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#look"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#still"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#at"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#this"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flush"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samsung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#difference"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#199"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#couple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tech"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#need"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#be"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#volume"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#-lrb-"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#second"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MushroomTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#those"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#march"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jump"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#US"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#up"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Processor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#press"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#display"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#variant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#look"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wrong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#trustedreviews"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#the"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#team"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#change"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#absolute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tech"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smartphone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#to"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#but"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wipe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#robust"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#earnings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#for"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#we"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#choice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#storage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reinvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#grubby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#now"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#come"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#32GB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#not"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#32gb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#back"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#course"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interesting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slightly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iphone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#just"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#other"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#along"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#display"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wrong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#its"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#price"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fingerprint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#report"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#better"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#profit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#India"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bottom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#metal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SIM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#snake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#percent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#669"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#become"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#robust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#contract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#earnings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pricing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#with"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#choice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fork"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#straightforward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interesting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#micro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PepperTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Charger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#leave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iphone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#while"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#entire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#course"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#between"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Galaxy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#samsung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Camera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#command"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#socket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OliveTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#home"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#better"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wheel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#way"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasVariants"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#house"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#front"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pretty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#big"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#over"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#couple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#january"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#out"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TomatoTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Glass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#both"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#top"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#too"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#considerable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#button"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#have"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unlock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#split"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lock/standby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#after"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#USA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#people"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#5.1-inch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#like"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pickup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#plus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#it"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#core"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#body"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#feel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cloth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#small"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#phone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#think"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#january"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#use"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRAM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#without"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#small"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#when"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#microfibre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSizeOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#few"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#glass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tray"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#split"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cover"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#slightly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#new"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#profit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#giant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pickup"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isColorOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#report"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#camera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#headphone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thursday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#side"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hugely"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#feel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#people"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quarter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#450"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#charge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#percent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#like"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#short-change"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#more"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#usb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#think"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Black"/>
+        <Class IRI="#White"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRAM"/>
+            <Class IRI="#TomatoTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Camera"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaperTopping"/>
+        <Class IRI="#Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Charger"/>
+        <Class IRI="#Design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Color"/>
+        <Class IRI="#Design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MushroomTopping"/>
+        <Class IRI="#Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OliveTopping"/>
+        <Class IRI="#Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnionTopping"/>
+        <Class IRI="#Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PepperTopping"/>
+        <Class IRI="#Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Processor"/>
+        <Class IRI="#Design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RAM"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#S7"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSize"/>
+            <Class IRI="#Features"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Size"/>
+        <Class IRI="#Design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TomatoTopping"/>
+        <Class IRI="#Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White"/>
+        <Class IRI="#S7"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Design"/>
+        <Class IRI="#Features"/>
+        <Class IRI="#S7"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#Australia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#Galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#Galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#Glass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#Gorilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#Nano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#SIM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#Samsung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#Samsung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#Samsung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#UK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#UK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#US"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#USA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#about"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#after"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#along"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#amount"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#another"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#any"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#aside"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#back"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#back"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#back"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#become"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#better"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#better"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#between"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#big"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#body"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#both"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#both"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#bottom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#but"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#but"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#button"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#button"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#button"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#camera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#can"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#change"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#charge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#choice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#choice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#clean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#clean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#clear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#cloth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#come"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#command"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#concave"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#considerable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#contract"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#core"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#couple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#couple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#course"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#cover"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#design"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#desk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#device"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#difference"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#display"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#down"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#earnings"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#electronics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#elongate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#email"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#entire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#exactly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#feel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#few"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#few"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#fingerprint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#flagship"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#flat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#flush"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#fork"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#free"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#front"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#gain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#giant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#glass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#grubby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#handset"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#headphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#hold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#home"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#home"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#house"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#hugely"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#impressive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#interesting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#iphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#iphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#its"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#its"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#january"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#jump"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#just"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#jut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#least"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#leave"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#lens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#like"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#logo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#look"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#look"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#look"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#look"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#magnet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#march"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#mark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#marking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#match"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#mess"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#metal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#micro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#microfibre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#microphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#microphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#microsd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#might"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#minute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#mobile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#month"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#more"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#much"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#my"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#need"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#new"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#not"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#not"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#now"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#now"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#now"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#old"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#only"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#or"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#other"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#out"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#over"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#part"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#part"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#part"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#people"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#percent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#phone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#pickup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#place"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#plus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#plus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#port"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#predecessor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#press"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#pretty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#price"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#price"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#price"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#price"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#pricing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#profit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#quarter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#reinvent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#report"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#rim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#robust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#rock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#s6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#s7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#s7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#sale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#samsung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#second"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#seem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#set"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#short-change"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#side"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#side"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#side"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#sim-free"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#sim-free"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#sit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#sit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#sit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#slightly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#slot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#small"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#small"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#smartphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#smartphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#snake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#so"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#socket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#speaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#split"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#still"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#storage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#straightforward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#switch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#tag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#tap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#team"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#tech"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#that"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#that"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#think"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#think"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#this"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#those"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#those"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#though"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#thursday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#tip"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#too"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#top"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#top"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#tray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#tree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#trustedreviews"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#try"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#two-year"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#unlike"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#unlock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#up"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#upfront"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#usb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#use"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#variant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#volume"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#way"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#we"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#wheel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#when"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#which"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#which"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#which"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#while"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#while"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#will"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#wipe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#without"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#wrong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#yet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#you"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="##"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#$"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#$"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#-lrb-"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#-rrb-"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#199"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#32GB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#32gb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#450"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#5.1-inch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#669"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#800"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Design"/>
+        <NamedIndividual IRI="#au$"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Features"/>
+        <NamedIndividual IRI="#lock/standby"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRAM"/>
+        <ObjectProperty IRI="#hasColor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSize"/>
+        <ObjectProperty IRI="#hasColor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isColorOf"/>
+        <ObjectProperty IRI="#isColorOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSizeOf"/>
+        <ObjectProperty IRI="#isColorOf"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isColorOf"/>
+        <ObjectProperty IRI="#hasColor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isSizeOf"/>
+        <ObjectProperty IRI="#hasRAM"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isColorOf"/>
+        <ObjectProperty IRI="#hasSize"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSize"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasColor"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class IRI="#Phone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRAM"/>
+        <Class IRI="#S7"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSize"/>
+        <Class IRI="#S7"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#better"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#better"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#button"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#button"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#choice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#choice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#clean"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#concave"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#couple"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#couple"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#design"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#display"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#earnings"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#electronics"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#elongate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#feel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#gain"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#galaxy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#galaxy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#galaxy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#giant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#home"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#home"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#interesting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#iphone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#iphone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#january"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#jut"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#like"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#look"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#look"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#march"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#people"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#percent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#pickup"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#plus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#press"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#profit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#quarter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#report"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#robust"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#s"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#s"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#sale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#samsung"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#second"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#sit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#slightly"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#small"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#smartphone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#split"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#team"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#tech"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#think"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#think"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#thursday"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#tip"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#trustedreviews"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#wrong"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isColorOf"/>
+        <Class IRI="#Features"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isColorOf"/>
+        <Class IRI="#Phone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSizeOf"/>
+        <Class IRI="#Design"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class IRI="#Phone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRAM"/>
+        <Class IRI="#Design"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSize"/>
+        <Class IRI="#Features"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isColorOf"/>
+        <Class IRI="#Phone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isColorOf"/>
+        <Class IRI="#S7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSizeOf"/>
+        <Class IRI="#S7"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVariants"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasVariants"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Black</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Samsung will sell unlocked versions of its flagship Galaxy S7 phones in the U.S. </Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.0.2) https://github.com/owlcs/owlapi/ -->
+
+

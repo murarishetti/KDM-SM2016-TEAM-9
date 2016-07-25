@@ -1,0 +1,781 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.2.0), http://vowl.visualdataweb.org",
+  "namespace" : [ ],
+  "header" : {
+    "languages" : [ "IRI-based", "undefined" ],
+    "iri" : "https://www.kdm.com/OWL/pizza"
+  },
+  "metrics" : {
+    "classCount" : 31,
+    "datatypeCount" : 1,
+    "objectPropertyCount" : 6,
+    "datatypePropertyCount" : 1,
+    "propertyCount" : 7,
+    "nodeCount" : 32,
+    "axiomCount" : 98,
+    "individualCount" : 3
+  },
+  "class" : [ {
+    "id" : "class19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class10",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "id" : "class19",
+    "label" : {
+      "IRI-based" : "TomatoTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#TomatoTopping",
+    "superClasses" : [ "class4" ],
+    "instances" : 0
+  }, {
+    "id" : "class26",
+    "label" : {
+      "IRI-based" : "ParmezanTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#ParmezanTopping",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class4",
+    "label" : {
+      "IRI-based" : "VegetableTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#VegetableTopping",
+    "subClasses" : [ "class28", "class13", "class5", "class7", "class21", "class19" ],
+    "superClasses" : [ "class6" ],
+    "instances" : 0
+  }, {
+    "id" : "class11",
+    "label" : {
+      "IRI-based" : "ThinAndCrisyBase"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#ThinAndCrisyBase",
+    "superClasses" : [ "class8" ],
+    "instances" : 0
+  }, {
+    "id" : "class31",
+    "label" : {
+      "IRI-based" : "DeepPanBase"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#DeepPanBase",
+    "superClasses" : [ "class8" ],
+    "instances" : 0
+  }, {
+    "id" : "class20",
+    "label" : {
+      "IRI-based" : "GreenPepperTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#GreenPepperTopping",
+    "superClasses" : [ "class21" ],
+    "instances" : 0
+  }, {
+    "id" : "class1",
+    "label" : {
+      "IRI-based" : "NamedPizza"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#NamedPizza",
+    "subClasses" : [ "class12" ],
+    "superClasses" : [ "class18" ],
+    "instances" : 0
+  }, {
+    "id" : "class23",
+    "label" : {
+      "IRI-based" : "SalamiTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#SalamiTopping",
+    "superClasses" : [ "class17" ],
+    "instances" : 0
+  }, {
+    "id" : "class16",
+    "label" : {
+      "IRI-based" : "JalapenoPepperTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#JalapenoPepperTopping",
+    "superClasses" : [ "class21" ],
+    "instances" : 0
+  }, {
+    "id" : "class6",
+    "label" : {
+      "IRI-based" : "PizzaTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#PizzaTopping",
+    "subClasses" : [ "class14", "class17", "class25", "class4" ],
+    "instances" : 0
+  }, {
+    "id" : "class3",
+    "label" : {
+      "IRI-based" : "HamTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#HamTopping",
+    "superClasses" : [ "class17" ],
+    "instances" : 0
+  }, {
+    "id" : "class21",
+    "label" : {
+      "IRI-based" : "PepperTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#PepperTopping",
+    "subClasses" : [ "class20", "class16", "class22" ],
+    "superClasses" : [ "class4" ],
+    "instances" : 0
+  }, {
+    "id" : "class7",
+    "label" : {
+      "IRI-based" : "OnionTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#OnionTopping",
+    "superClasses" : [ "class4" ],
+    "instances" : 0
+  }, {
+    "id" : "class12",
+    "label" : {
+      "IRI-based" : "MargheritaPizza"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#MargheritaPizza",
+    "comment" : {
+      "undefined" : "A pizza that only has Mozarella and Tomato toppings"
+    },
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class18",
+    "label" : {
+      "IRI-based" : "Pizza"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#Pizza",
+    "subClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class24",
+    "label" : {
+      "IRI-based" : "SpicyBeefTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#SpicyBeefTopping",
+    "superClasses" : [ "class17" ],
+    "instances" : 0
+  }, {
+    "id" : "class13",
+    "label" : {
+      "IRI-based" : "MushroomTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#MushroomTopping",
+    "superClasses" : [ "class4" ],
+    "instances" : 0
+  }, {
+    "id" : "class25",
+    "label" : {
+      "IRI-based" : "SeafoodTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#SeafoodTopping",
+    "subClasses" : [ "class30", "class15", "class2" ],
+    "superClasses" : [ "class6" ],
+    "instances" : 0
+  }, {
+    "id" : "class15",
+    "label" : {
+      "IRI-based" : "PrawnTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#PrawnTopping",
+    "superClasses" : [ "class25" ],
+    "instances" : 0
+  }, {
+    "id" : "class22",
+    "label" : {
+      "IRI-based" : "RedPepperTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#RedPepperTopping",
+    "superClasses" : [ "class21" ],
+    "instances" : 0
+  }, {
+    "id" : "class30",
+    "label" : {
+      "IRI-based" : "AnchovyTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#AnchovyTopping",
+    "superClasses" : [ "class25" ],
+    "instances" : 0
+  }, {
+    "id" : "class29",
+    "label" : {
+      "IRI-based" : "Country"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#Country",
+    "instances" : 3,
+    "individuals" : [ {
+      "iri" : "https://www.kdm.com/OWL/pizza#USA",
+      "labels" : {
+        "IRI-based" : "USA"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "https://www.kdm.com/OWL/pizza#India",
+      "labels" : {
+        "IRI-based" : "India"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "https://www.kdm.com/OWL/pizza#UK",
+      "labels" : {
+        "IRI-based" : "UK"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class28",
+    "label" : {
+      "IRI-based" : "CaperTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#CaperTopping",
+    "superClasses" : [ "class4" ],
+    "instances" : 0
+  }, {
+    "id" : "class2",
+    "label" : {
+      "IRI-based" : "TunaTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#TunaTopping",
+    "superClasses" : [ "class25" ],
+    "instances" : 0
+  }, {
+    "id" : "class17",
+    "label" : {
+      "IRI-based" : "MeatTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#MeatTopping",
+    "subClasses" : [ "class3", "class9", "class23", "class24" ],
+    "superClasses" : [ "class6" ],
+    "instances" : 0
+  }, {
+    "id" : "class8",
+    "label" : {
+      "IRI-based" : "PizzaBase"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#PizzaBase",
+    "subClasses" : [ "class31", "class11" ],
+    "instances" : 0
+  }, {
+    "id" : "class5",
+    "label" : {
+      "IRI-based" : "OliveTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#OliveTopping",
+    "superClasses" : [ "class4" ],
+    "instances" : 0
+  }, {
+    "id" : "class14",
+    "label" : {
+      "IRI-based" : "CheeseTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#CheeseTopping",
+    "subClasses" : [ "class27", "class26" ],
+    "superClasses" : [ "class6" ],
+    "instances" : 0
+  }, {
+    "id" : "class9",
+    "label" : {
+      "IRI-based" : "PepperoniTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#PepperoniTopping",
+    "superClasses" : [ "class17" ],
+    "instances" : 0
+  }, {
+    "id" : "class27",
+    "label" : {
+      "IRI-based" : "MozzarellaTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#MozzarellaTopping",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class10",
+    "label" : {
+      "IRI-based" : "Food"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#Food",
+    "instances" : 0
+  } ],
+  "datatype" : [ {
+    "id" : "datatype1",
+    "type" : "rdfs:Datatype"
+  } ],
+  "datatypeAttribute" : [ {
+    "id" : "datatype1",
+    "label" : {
+      "IRI-based" : "integer"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "property" : [ {
+    "id" : "property35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property39",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property1",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property19",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property13",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property12",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property31",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "id" : "property35",
+    "label" : {
+      "IRI-based" : "isToppingOf"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#isToppingOf",
+    "domain" : "class6",
+    "range" : "class18",
+    "inverse" : "property38",
+    "superproperty" : [ "property36" ]
+  }, {
+    "id" : "property39",
+    "label" : {
+      "IRI-based" : "hasVarieties"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#hasVarieties",
+    "domain" : "class29",
+    "range" : "datatype1"
+  }, {
+    "id" : "property37",
+    "label" : {
+      "IRI-based" : "hasBase"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#hasBase",
+    "attributes" : [ "functional" ],
+    "domain" : "class18",
+    "range" : "class8",
+    "inverse" : "property33",
+    "superproperty" : [ "property34" ]
+  }, {
+    "id" : "property2",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class13",
+    "range" : "class4"
+  }, {
+    "id" : "property36",
+    "label" : {
+      "IRI-based" : "isIngredientOf"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#isIngredientOf",
+    "domain" : "class10",
+    "range" : "class10",
+    "inverse" : "property34",
+    "subproperty" : [ "property33", "property35" ]
+  }, {
+    "id" : "property1",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class28",
+    "range" : "class4"
+  }, {
+    "id" : "property4",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class7",
+    "range" : "class4"
+  }, {
+    "id" : "property3",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class5",
+    "range" : "class4"
+  }, {
+    "id" : "property26",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class24",
+    "range" : "class17"
+  }, {
+    "id" : "property25",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class23",
+    "range" : "class17"
+  }, {
+    "id" : "property28",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class11",
+    "range" : "class8"
+  }, {
+    "id" : "property27",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class31",
+    "range" : "class8"
+  }, {
+    "id" : "property22",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class2",
+    "range" : "class25"
+  }, {
+    "id" : "property21",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class15",
+    "range" : "class25"
+  }, {
+    "id" : "property24",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class9",
+    "range" : "class17"
+  }, {
+    "id" : "property23",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class3",
+    "range" : "class17"
+  }, {
+    "id" : "property33",
+    "label" : {
+      "IRI-based" : "isBaseOf"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#isBaseOf",
+    "domain" : "class8",
+    "range" : "class18",
+    "inverse" : "property37",
+    "superproperty" : [ "property36" ]
+  }, {
+    "id" : "property20",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class30",
+    "range" : "class25"
+  }, {
+    "id" : "property38",
+    "label" : {
+      "IRI-based" : "hasTopping"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#hasTopping",
+    "domain" : "class18",
+    "range" : "class6",
+    "inverse" : "property35",
+    "superproperty" : [ "property34" ]
+  }, {
+    "id" : "property9",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class17",
+    "range" : "class6"
+  }, {
+    "id" : "property6",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class19",
+    "range" : "class4"
+  }, {
+    "id" : "property5",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class21",
+    "range" : "class4"
+  }, {
+    "id" : "property8",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class14",
+    "range" : "class6"
+  }, {
+    "id" : "property7",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class12",
+    "range" : "class1"
+  }, {
+    "id" : "property19",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class8",
+    "range" : "class18"
+  }, {
+    "id" : "property15",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class16",
+    "range" : "class21"
+  }, {
+    "id" : "property14",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class20",
+    "range" : "class21"
+  }, {
+    "id" : "property34",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "iri" : "https://www.kdm.com/OWL/pizza#hasIngredient",
+    "attributes" : [ "transitive" ],
+    "domain" : "class10",
+    "range" : "class10",
+    "inverse" : "property36",
+    "subproperty" : [ "property37", "property38" ]
+  }, {
+    "id" : "property17",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class1",
+    "range" : "class18"
+  }, {
+    "id" : "property16",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class22",
+    "range" : "class21"
+  }, {
+    "id" : "property11",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class4",
+    "range" : "class6"
+  }, {
+    "id" : "property10",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class25",
+    "range" : "class6"
+  }, {
+    "id" : "property32",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class26",
+    "range" : "class14"
+  }, {
+    "id" : "property13",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class8",
+    "range" : "class6"
+  }, {
+    "id" : "property12",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class18",
+    "range" : "class6"
+  }, {
+    "id" : "property31",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class27",
+    "range" : "class14"
+  } ]
+}

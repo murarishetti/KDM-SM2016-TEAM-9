@@ -1,0 +1,3254 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://www.kdm.com/OWL/S7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://www.kdm.com/OWL/S7">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Phone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#S7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#when"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#gain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#slightly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#-rrb-"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#big"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#tray"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#phone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#january"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#between"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#199"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone##"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#$"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#button"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasMemory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#microfibre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#rim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#straightforward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#yet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Camera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#fingerprint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#plus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#side"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#report"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#wrong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#robust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#iphone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#pretty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isPriceOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#more"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#like"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#change"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#display"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#-lrb-"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#microsd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#concave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#better"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#way"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#socket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Glass"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasDate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#lens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#out"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#other"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#samsung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#storage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#house"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#just"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#slightly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#grubby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#home"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#button"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#too"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#back"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#interesting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#top"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#report"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#wrong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#pickup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#people"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#India"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#iphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#robust"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#unlock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#it"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#display"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#contract"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Samsung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#come"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#entire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#still"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#669"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#metal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#use"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#small"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Galaxy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#percent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#split"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#usb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#feel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#interesting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#few"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#tag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#that"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#core"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#body"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#only"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#logo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#glass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#amount"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#wheel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isSizeOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#galaxy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#from"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#pickup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#command"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#clear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#profit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#giant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#clean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#headphone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#think"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#exactly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#will"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#USA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#place"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#impressive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#flagship"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#front"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#match"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#while"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#people"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#short-change"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#percent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Price"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#january"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#flat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#snake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#along"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#and"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#have"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#feel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#450"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#can"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#hugely"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#rock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#reinvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#though"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#considerable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#unlike"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#of"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#plus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#giant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#tree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#like"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#profit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#clean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#camera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#new"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Date"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#my"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#price"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#tap"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isDateOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#try"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#cloth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#both"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#gain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#bottom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#about"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#electronics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#without"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#smartphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Processor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#jump"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#cover"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#minute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#thursday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#team"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#or"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#look"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#magnet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#any"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#on"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#tech"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#charge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#march"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#sale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#wipe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#quarter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#marking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#800"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#jut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#slot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#galaxy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#be"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#predecessor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#mess"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#two"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Black"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#small"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#split"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#smartphone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#lock/standby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#I"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Memory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#speaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#another"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#tip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#after"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#email"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#make"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#so"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://www.kdm.com/OWL/Phone#hasVariants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#team"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#old"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#s7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#thursday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#s6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#you"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#think"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#two-year"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#second"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#quarter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#au$"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#difference"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#at"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#as"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#much"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#elongate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#switch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#march"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#sale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#5.1-inch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Gorilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#jut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#choice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#samsung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#earnings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#but"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#couple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#course"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#UK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#leave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#sit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#those"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#down"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#tip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#microphone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#US"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#look"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#trustedreviews"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#press"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#sim-free"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#set"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#one"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#over"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#absolute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#mobile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#fork"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#mark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#elongate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#second"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#with"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#pricing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#hold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Nano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#to"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#micro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#for"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#least"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Australia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#handset"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#seem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#choice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#earnings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#we"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#become"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#electronics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#White"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#32gb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#32GB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#flush"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#sit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#free"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#which"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#trustedreviews"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#upfront"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#not"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#now"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#might"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#its"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#variant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#this"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#press"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#home"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#concave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#better"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#volume"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#tech"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#desk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#need"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#aside"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#SIM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasSize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.kdm.com/OWL/Phone#couple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#port"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#month"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Black"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#White"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Camera"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Date"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Memory"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Price"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Processor"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.kdm.com/OWL/Phone#S7"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasSize"/>
+            <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Size"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.kdm.com/OWL/Phone#White"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#S7"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#S7"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Australia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Glass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Gorilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Country"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Nano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#SIM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Samsung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Samsung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Samsung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Country"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#UK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#UK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#US"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Country"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#USA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#about"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#absolute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#after"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#along"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#amount"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#another"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#any"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#aside"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#back"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#back"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#back"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#become"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#better"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#between"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#big"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#body"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#both"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#both"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#bottom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#but"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#but"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#button"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#button"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#button"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#camera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#can"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#change"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#charge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#choice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#choice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#clean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#clean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#clear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#cloth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#come"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#command"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#concave"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#considerable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#contract"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#core"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#couple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#couple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#course"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#cover"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#design"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#desk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#device"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#difference"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#display"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#down"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#earnings"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#electronics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#elongate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#email"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#entire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#exactly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#feel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#few"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#few"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#fingerprint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#flagship"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#flat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#flush"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#fork"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#free"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#front"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#gain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#giant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#glass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#grubby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#handset"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#headphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#hold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#home"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#home"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#house"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#hugely"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#impressive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#interesting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#iphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#iphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#its"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#its"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#january"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#jump"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#just"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#jut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#least"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#leave"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#lens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#like"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#like"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#logo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#look"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#look"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#look"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#magnet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#march"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#mark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#marking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#match"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#mess"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#metal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#micro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#microfibre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#microphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#microphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#microsd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#might"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#minute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#mobile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#month"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#more"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#much"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#my"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#need"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#new"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#not"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#not"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#now"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#now"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#now"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#old"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#only"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#or"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#other"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#out"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#over"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#part"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#part"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#part"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#people"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#percent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#phone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#pickup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#place"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#plus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#plus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#port"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#predecessor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#press"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#pretty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#price"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#price"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#price"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#price"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#pricing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#profit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#quarter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#reinvent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#report"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#rim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#robust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#rock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#s6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#s7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#s7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#sale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#samsung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#second"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#seem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#set"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#short-change"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#side"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#side"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#side"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#sim-free"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#sim-free"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#sit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#sit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#sit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#sit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#slightly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#slot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#small"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#small"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#smartphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#smartphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#snake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#so"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#socket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#speaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#split"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#split"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#still"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#storage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#straightforward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#switch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#tag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#tap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#team"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#tech"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#that"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#that"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#think"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#this"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#those"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#those"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#though"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#thursday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#tip"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#too"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#top"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#top"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#tray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#tree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#trustedreviews"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#try"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#two-year"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#unlike"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#unlock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#up"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#upfront"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#usb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#use"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#variant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#volume"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#way"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#we"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#wheel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#when"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#which"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#which"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#which"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#while"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#while"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#will"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#wipe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#without"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#wrong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#yet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#you"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone##"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#$"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#$"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#,"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#-lrb-"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#-rrb-"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#199"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#32GB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#32gb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#450"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#5.1-inch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#669"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#800"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#au$"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+        <NamedIndividual IRI="https://www.kdm.com/OWL/Phone#lock/standby"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasMemory"/>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasDate"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasSize"/>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasDate"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isDateOf"/>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isPriceOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isSizeOf"/>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isPriceOf"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isPriceOf"/>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasDate"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isSizeOf"/>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasMemory"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isDateOf"/>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasSize"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasSize"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasDate"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasDate"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Phone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasMemory"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#S7"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasSize"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#S7"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#better"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#button"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#button"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#choice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#choice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#clean"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#concave"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#couple"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#couple"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#design"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#display"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#earnings"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#electronics"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#elongate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#feel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#gain"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#galaxy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#galaxy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#galaxy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#giant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#home"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#home"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#interesting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#iphone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#iphone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#january"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#jut"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#like"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#like"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#look"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#march"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#people"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#percent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#pickup"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#plus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#press"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#profit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#quarter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#report"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#robust"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#s"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#s"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#sale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#samsung"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#second"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#sit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#sit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#slightly"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#small"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#smartphone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#split"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#split"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#team"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#tech"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#think"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#thursday"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#tip"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#trustedreviews"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#wrong"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isDateOf"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isPriceOf"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Phone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isSizeOf"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasDate"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Phone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasMemory"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Design"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasSize"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Features"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#hasTopic"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isDateOf"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#S7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isPriceOf"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Phone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.kdm.com/OWL/Phone#isSizeOf"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#S7"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://www.kdm.com/OWL/Phone#hasVariants"/>
+        <Class IRI="https://www.kdm.com/OWL/Phone#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="https://www.kdm.com/OWL/Phone#hasVariants"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://www.kdm.com/OWL/Phone#Black</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Samsung will sell unlocked versions of its flagship Galaxy S7 phones in the U.S. </Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.0.2.20160507-1747) https://github.com/owlcs/owlapi/ -->
+
+
