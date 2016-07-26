@@ -11,7 +11,7 @@ public class DataCollection {
     public static String main() throws IOException {
         String fileName = "gTrends.txt";
 
-        String url2 = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=1069bc25bff24ebf8cf3dbae1133e000&q=kansascity&sort=newest&fl=lead_paragraph&page=0";
+        String url2 = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=1069bc25bff24ebf8cf3dbae1133e000&q=iphone7&sort=newest&fl=lead_paragraph&page=0";
         URL url = new URL(url2);
 
         HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
