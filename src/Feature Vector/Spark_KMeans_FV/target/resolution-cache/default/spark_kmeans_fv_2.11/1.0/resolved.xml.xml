@@ -4,7 +4,7 @@
 		module="spark_kmeans_fv_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160708203504"
+		publication="20160712120859"
 	>
 		<description>
 		Spark_KMeans_FV

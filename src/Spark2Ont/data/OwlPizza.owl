@@ -1,0 +1,3951 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://www.kdm.com/OWL/pizza"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://www.kdm.com/OWL/pizza">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PizzaBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PizzaTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toppings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunaTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#best"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sunset"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#accept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hawaiian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PepperoniTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#glass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#note"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#however"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#herb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThinAndCrisyBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pepperoni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gooey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#consider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#taste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dough"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#make"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tropical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#slow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#box"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#olive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tomato"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#and"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#of"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#each"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#specialty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mindlessly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otherwise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#another"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sauce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#burst"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#want"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gluttonous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#no"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unhealthy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#they"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#picture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#then"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beef"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#insect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hawaiian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#influence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dough"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pizza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#USA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CheeseTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#giant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#represent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tropical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#such"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#consider"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#overly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#box"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#need"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#roman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#editor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#use"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spotlight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#into"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#face"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tooth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#healthy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aspirational"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#it"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vegetable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#something"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#look"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heavier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bottle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#many"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#epi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pork"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#doughy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#in"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#frozen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#green"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lover"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#initial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#balance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#elevate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pizza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crisp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#canon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#offer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#out"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mouth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#top"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpicyBeefTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#natural"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#similar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sweet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#need"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#base"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#force"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#doesn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#might"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#know"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gluttony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#strength"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#don"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#polka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flavor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#this"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#praise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heavier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#down"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#look"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#state"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#taste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#judge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yep"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#with"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#put"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#canon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#there"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#what"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mouth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sauce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#far"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#complexion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beautiful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pepper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#over"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeafoodTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#freshness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#strength"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crispy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disappear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#origin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#base"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oven"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeepPanBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#don"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#forever"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#she"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#little"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OliveTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#touch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NOT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hillside"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#some"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#just"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBaseOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flavorless"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#up"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#live"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rather"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fluffy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#judge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scoff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#purist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#majority"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#other"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#add"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#disappoint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#we"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeatTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#decanter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#piece"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#for"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#enjoy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chunk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PepperTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedPepperTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#not"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalamiTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#India"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParmezanTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#abundance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bunch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#basil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#purely"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#everyone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cheesiness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#change"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#woman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#n"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#even"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flavorful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aromatic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VegetableTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#World"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#t"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#the"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#slightly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#very"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#autopilot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chewiness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#majority"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#member"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#one"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MushroomTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prefer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#set"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrawnTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#engrave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#else"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#do"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sweetness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perfect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perfectly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#help"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#red"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chirp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#like"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#more"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#side"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sweet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#to"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cheesiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outsider"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#change"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dairy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnchovyTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#but"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#elegance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ready"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#point"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rolling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HamTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crispiness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shortcoming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#have"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isToppingOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#foreign"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#refresh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#t"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#as"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ultimately"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#puffy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnionTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#feel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EVOO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#at"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crust"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#you"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wait"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#savory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#influence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#let"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#could"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#italian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#how"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#most"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#two"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TomatoTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GreenPepperTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#by"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thick"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#belong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#taster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#like"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#outsider"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#be"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NamedPizza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#than"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#despite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#favor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#that"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#say"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unidentified"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#feel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#best"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#while"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#real"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jalepeno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#overpower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#accept"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#on"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#combination"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#simple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#win"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#from"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#onion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#magic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MargheritaPizza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#softness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#note"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#because"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JalapenoPepperTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#meal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disappoint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#slice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pineapple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#member"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#zesty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasVarieties"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chunk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#purely"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#will"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#process"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#specialty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prepare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MozzarellaTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#want"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Old"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CaperTopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bottomless"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AnchovyTopping"/>
+        <Class IRI="#SeafoodTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CaperTopping"/>
+        <Class IRI="#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CheeseTopping"/>
+        <Class IRI="#PizzaTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeepPanBase"/>
+        <Class IRI="#PizzaBase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenPepperTopping"/>
+        <Class IRI="#PepperTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HamTopping"/>
+        <Class IRI="#MeatTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JalapenoPepperTopping"/>
+        <Class IRI="#PepperTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MargheritaPizza"/>
+        <Class IRI="#NamedPizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MargheritaPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#MozzarellaTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MargheritaPizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTopping"/>
+            <Class IRI="#TomatoTopping"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeatTopping"/>
+        <Class IRI="#PizzaTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MozzarellaTopping"/>
+        <Class IRI="#CheeseTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MushroomTopping"/>
+        <Class IRI="#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NamedPizza"/>
+        <Class IRI="#Pizza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OliveTopping"/>
+        <Class IRI="#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnionTopping"/>
+        <Class IRI="#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParmezanTopping"/>
+        <Class IRI="#CheeseTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PepperTopping"/>
+        <Class IRI="#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PepperoniTopping"/>
+        <Class IRI="#MeatTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pizza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBase"/>
+            <Class IRI="#PizzaBase"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrawnTopping"/>
+        <Class IRI="#SeafoodTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedPepperTopping"/>
+        <Class IRI="#PepperTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalamiTopping"/>
+        <Class IRI="#MeatTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeafoodTopping"/>
+        <Class IRI="#PizzaTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpicyBeefTopping"/>
+        <Class IRI="#MeatTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThinAndCrisyBase"/>
+        <Class IRI="#PizzaBase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TomatoTopping"/>
+        <Class IRI="#VegetableTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunaTopping"/>
+        <Class IRI="#SeafoodTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetableTopping"/>
+        <Class IRI="#PizzaTopping"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Pizza"/>
+        <Class IRI="#PizzaBase"/>
+        <Class IRI="#PizzaTopping"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#EVOO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Gluttony"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#NOT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#Old"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#UK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#USA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#World"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#abundance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#accept"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#accept"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#add"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#add"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#another"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#aromatic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#aspirational"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#autopilot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#balance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#base"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#base"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#basil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#bear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#beautiful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#because"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#beef"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#belong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#best"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#bite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#bite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#bite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#bottle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#bottomless"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#box"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#bring"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#bunch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#burst"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#but"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#but"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#but"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#but"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#by"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#canon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#canon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#change"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#change"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#cheese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#cheese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#cheesiness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#chewiness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#chirp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#chunk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#chunk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#combination"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#complexion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#consider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#consider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#consider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#could"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#crisp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#crispiness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#crispy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#crust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#crust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#crust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#crust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#crust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#crust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#crust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#dairy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#decanter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#despite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#disappear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#disappoint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#do"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#do"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#doesn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#don"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#don"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#don"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#dot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#dough"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#dough"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#doughy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#down"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#dry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#dry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#each"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#eating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#editor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#elegance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#elevate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#else"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#engrave"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#enjoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#enjoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#epi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#even"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#event"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#everyone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#fab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#face"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#fact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#fact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#fact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#far"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#favor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#feel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#feel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#feel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#feel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#fire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#flavor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#flavor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#flavorful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#flavorless"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#fluffy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#force"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#foreign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#forever"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#freshness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#frozen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#frozen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#fruit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#giant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#glass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#gluttonous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#gooey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#green"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#green"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#hand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#hawaiian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#healthy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#heap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#heavier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#help"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#help"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#herb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#hillside"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#hog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#hot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#how"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#however"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#influence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#initial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#insect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#into"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#italian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#jalepeno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#judge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#judge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#judge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#judge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#judge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#just"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#just"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#know"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#lack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#lack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#let"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#like"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#like"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#like"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#like"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#like"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#like"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#little"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#little"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#live"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#look"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#look"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#lose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#lover"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#magic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#majority"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#many"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#meal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#member"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#member"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#might"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#might"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#mindlessly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#more"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#most"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#mouth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#n"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#natural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#need"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#nice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#no"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#no"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#no"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#nope"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#not"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#not"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#not"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#note"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#number"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#number"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#offer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#olive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#onion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#origin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#other"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#other"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#other"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#other"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#otherwise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#out"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#out"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#outsider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#outsider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#oven"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#over"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#overly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#overpower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#paint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pepper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pepper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#pepperoni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#pepperoni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pepperoni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pepperoni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#perfect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#perfectly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#picture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#pie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#piece"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pineapple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#point"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#polka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pork"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#pour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#praise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#pre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#prefer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#prepare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#process"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#process"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#puffy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#purely"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#purely"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#purist"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#put"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#quality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#quite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#quite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#rank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#rather"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#ready"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#real"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#red"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#red"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#refresh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#represent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#rolling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#roman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#sauce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#sauce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#sauce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#sauce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#savory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#say"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#scoff"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#set"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#she"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#she"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#shortcoming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#side"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#side"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#similar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#simple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#slice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#slice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#slice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#slice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#slightly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#slow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#softness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#some"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#some"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#something"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#specialty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#specialty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#spice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#spotlight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#state"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#strength"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#such"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#sun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#sunset"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#sweet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#sweet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#sweet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#sweet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#sweet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#sweetness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#taste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#taste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#taste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#taster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#taster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#tend"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#than"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#that"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#that"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#that"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#that"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#that"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#that"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#that"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#then"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#there"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#there"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#they"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#they"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#thick"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#thin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#this"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#this"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#this"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#this"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#tomato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#tomato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#tooth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#top"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#top"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#top"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#top"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#top"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#touch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#tropical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#ultimately"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#unhealthy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#unidentified"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#up"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#use"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#vegetable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#very"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#very"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#very"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#wait"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#want"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#want"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#we"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#what"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#while"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#while"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#will"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#win"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#wine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#woman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#wood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#yell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#yep"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#you"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#you"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#you"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#you"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#you"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toppings"/>
+        <NamedIndividual IRI="#you"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#zesty"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBase"/>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTopping"/>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isBaseOf"/>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isToppingOf"/>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isBaseOf"/>
+        <ObjectProperty IRI="#hasBase"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isIngredientOf"/>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isToppingOf"/>
+        <ObjectProperty IRI="#hasTopping"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasBase"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBase"/>
+        <Class IRI="#Pizza"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Food"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#accept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#accept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#base"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#base"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#best"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#box"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#canon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#canon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#change"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#change"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#cheesiness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#chunk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#chunk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#consider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#consider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#disappoint"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#don"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#don"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#dough"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#dry"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#fact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#fact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#feel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#feel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#fruit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#hand"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#hawaiian"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#heavier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#influence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#judge"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#lack"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#like"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#look"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#majority"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#member"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#member"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#mouth"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#need"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#note"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#outsider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#outsider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#pie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#pizza"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#purely"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#purely"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#sauce"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#slice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#slice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#specialty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#specialty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#strength"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#sweet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#sweet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#sweet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#t"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#t"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#taste"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#tropical"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#want"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#want"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopping"/>
+        <Class IRI="#Pizza"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBaseOf"/>
+        <Class IRI="#PizzaBase"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIngredientOf"/>
+        <Class IRI="#Food"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isToppingOf"/>
+        <Class IRI="#PizzaTopping"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBase"/>
+        <Class IRI="#PizzaBase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Food"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopping"/>
+        <Class IRI="#PizzaTopping"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBaseOf"/>
+        <Class IRI="#Pizza"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIngredientOf"/>
+        <Class IRI="#Food"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isToppingOf"/>
+        <Class IRI="#Pizza"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVarieties"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasVarieties"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MargheritaPizza</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">A pizza that only has Mozarella and Tomato toppings</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.0.2) https://github.com/owlcs/owlapi/ -->
+
+

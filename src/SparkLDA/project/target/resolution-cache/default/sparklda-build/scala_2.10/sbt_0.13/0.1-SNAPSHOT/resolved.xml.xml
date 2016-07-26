@@ -4,8 +4,8 @@
 		module="sparklda-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160629135935"
-		e:sbtVersion="0.13" e:scalaVersion="2.10"
+		publication="20160723200810"
+		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>
 		sparklda-build

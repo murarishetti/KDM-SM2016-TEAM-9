@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.org/book/"
+     xml:base="http://example.org/book/"
+     xmlns:dc10="http://purl.org/dc/elements/1.0/"
+     xmlns:dc11="http://purl.org/dc/elements/1.1/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:ns="http://example.org/ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <owl:Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/ns#price -->
+
+    <owl:AnnotationProperty rdf:about="http://example.org/ns#price"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.0/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.0/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/age -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/age"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/knows -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/knows"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/mbox -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/mbox"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/studies -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/studies"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/PersonalProfileDocument -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/foaf/bobFoaf -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/foaf/bobFoaf">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <foaf:homepage>www.alice.com/index.html</foaf:homepage>
+        <foaf:knows>
+            <rdf:Description>
+                <rdfs:seeAlso rdf:resource="http://example.org/foaf/bobFoaf"/>
+                <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</foaf:age>
+                <foaf:homepage>www.bob.com/index.html</foaf:homepage>
+                <foaf:mbox rdf:resource="mailto:bob@work.example"/>
+                <foaf:name>Bob</foaf:name>
+                <foaf:studies>Electrica Engineering</foaf:studies>
+            </rdf:Description>
+        </foaf:knows>
+        <foaf:mbox rdf:resource="mailto:alice@work.example"/>
+        <foaf:name>Alice</foaf:name>
+        <foaf:studies>Computer Science</foaf:studies>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:seeAlso rdf:resource="http://example.org/foaf/bobFoaf"/>
+        <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</foaf:age>
+        <foaf:mbox rdf:resource="mailto:bob@work.example"/>
+    </rdf:Description>
+    <rdf:Description>
+        <dc10:title>SPARQL Query Language Tutorial</dc10:title>
+    </rdf:Description>
+    <rdf:Description>
+        <dc11:title>SPARQL Protocol Tutorial</dc11:title>
+    </rdf:Description>
+    <rdf:Description>
+        <dc10:title>SPARQL</dc10:title>
+        <dc11:title>SPARQL (updated)</dc11:title>
+    </rdf:Description>
+    <rdf:Description>
+        <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</foaf:age>
+        <foaf:homepage>www.obama.com/index.html</foaf:homepage>
+        <foaf:name>Obama</foaf:name>
+        <foaf:studies>Political Science</foaf:studies>
+    </rdf:Description>
+    <rdf:Description>
+        <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</foaf:age>
+        <foaf:homepage>www.modi.com/index.html</foaf:homepage>
+        <foaf:name>Modi</foaf:name>
+        <foaf:studies>Political Science</foaf:studies>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://example.org/book/book1">
+        <dc11:title>SPARQL Tutorial</dc11:title>
+        <ns:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</ns:price>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/book/book2">
+        <ns:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns:price>
+        <dc11:title>The Semantic Web</dc11:title>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
